@@ -1,13 +1,13 @@
 import { Button } from '../components/Button'
 import React from 'react'
 import styled from 'styled-components'
-import TravelVideo from '../assets/videos/travel-video.mp4'
+import HomeVideo from '../assets/videos/home-video-1.mp4'
 
 const Hero = () => {
     return (
         <HeroContainer>
             <HeroBg>
-                <VideoBg src={TravelVideo} type="video/mp4" autoPlay loop muted playsInline />
+                <VideoBg src={HomeVideo} type="video/mp4" autoPlay loop muted playsInline />
             </HeroBg>
             <HeroContent>
                 <HeroItems>

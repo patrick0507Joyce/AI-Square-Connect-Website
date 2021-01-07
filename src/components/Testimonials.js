@@ -29,8 +29,8 @@ const Testimonials = () => {
 
   return (
     <TestimonialsContainer>
-      <TopLine>Feedbacks</TopLine>
-      <Description>What Customers are Saying:</Description>
+      <TopLine>Features</TopLine>
+      <Description>What we have developed:</Description>
       <ContentWrapper>
         <ColumnOne>
           <Testimonial>
@@ -41,8 +41,22 @@ const Testimonials = () => {
                 margin-bottom: 1rem;
               `}
             />
-            <h3>Simon:</h3>
-            <p>xssssssssssssssssssssssssssss</p>
+            <h3>Property Platform:</h3>
+            <p>Our unique platform allows to analyse 
+            asset managers’ strategies and 
+            improve their decision process 
+            using latest machine learning techniques</p>
+          </Testimonial>
+          <Testimonial>
+            <IoMdCheckmarkCircleOutline
+              css={`
+                color: #f9b19b;
+                font-size: 2rem;
+                margin-bottom: 1rem;
+              `}
+            />
+            <h3>Advanced Learning Techniques:</h3>
+            <p>Proven algorithms based on supervised and reinforcement learning.</p>
           </Testimonial>
           <Testimonial>
             <FaRegLightbulb
@@ -52,8 +66,9 @@ const Testimonials = () => {
                 margin-bottom: 1rem;
               `}
             />
-            <h3>Tom:</h3>
-            <p>xlllllllllllllllllllllllllll</p>
+            <h3>Optimization Library:</h3>
+            <p>We have built tailor made non convex and discrete optimization tools to 
+            find efficiently in large dimension optimal decision criteria.</p>
           </Testimonial>
         </ColumnOne>
         <ColumnTwo>
@@ -113,6 +128,7 @@ const Testimonial = styled.div`
   }
 
   p {
+    font-size: 1.2rem;
     color: #3b3b3b;
   }
 `
