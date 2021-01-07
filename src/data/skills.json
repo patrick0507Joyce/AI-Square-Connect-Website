@@ -1,0 +1,26 @@
+[
+    {
+        "img":"../assets/images/skills-1.jpg",
+        "alt":"PROPRIETARY PLATFORM",
+        "name": "PROPRIETARY PLATFORM",
+        "Button": "Learn More"
+    },
+    {
+        "img":"../assets/images/skills-2.jpg",
+        "alt":"OPTIMIZATION LIBRARY",
+        "name": "OPTIMIZATION LIBRARY",
+        "Button": "Learn More"
+    },
+    {
+        "img":"../assets/images/skills-3.jpg",
+        "alt":"ADVANCED LEARNING TECHNIQUES",
+        "name": "ADVANCED LEARNING TECHNIQUES",
+        "Button": "Learn More"
+    },
+    {
+        "img":"../assets/images/skills-1.jpg",
+        "alt":"PROPRIETARY PLATFORM",
+        "name": "PROPRIETARY PLATFORM",
+        "Button": "Learn More"
+    }
+]
