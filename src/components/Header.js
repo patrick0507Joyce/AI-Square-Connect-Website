@@ -7,6 +7,8 @@ import { Button } from "./Button"
 import Icon from "../assets/svg/logo_favicon.svg"
 
 const Header = () => {
+  //TODO: navigate to our team subcomponent
+  
   return (
     <Nav>
       <NavLink to="/">

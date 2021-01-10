@@ -4,7 +4,7 @@ import { StatsData } from "../data/StatsData";
 
 const Stats = () => {
     return (
-        <StatsContainer>
+        <StatsContainer >
             <Heading>
                 Why Choose Us?
             </Heading>
