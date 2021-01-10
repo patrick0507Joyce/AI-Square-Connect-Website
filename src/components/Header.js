@@ -4,11 +4,14 @@ import styled from 'styled-components'
 import { FaBars } from "react-icons/fa"
 import { menuData } from "../data/MenuData"
 import { Button } from "./Button"
+import Icon from "../assets/svg/logo_favicon.svg"
 
 const Header = () => {
   return (
     <Nav>
-      <NavLink to="/">AI-Square-Connect</NavLink>
+      <NavLink to="/">
+        <Logo src={Icon} alt="Logo"/>
+      </NavLink>
       <Bars />
       <NavMenu>
         {menuData.map((item, index) => (
@@ -45,6 +48,19 @@ const NavLink = styled(Link)`
   padding: 0px 1rem;
   height: 100%;
   cursor: pointer;
+`
+
+const Logo = styled.img `
+
+  width: 4rem;
+  height: 4rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+
+  @media screen and (max-width: 768px) {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
 `
 
 const Bars = styled(FaBars)`
