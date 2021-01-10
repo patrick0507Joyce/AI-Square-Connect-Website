@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="96"
+   inkscape:export-xdpi="96"
+   inkscape:export-filename="C:\Users\david.saltiel\Documents\AlphaBetaMatrix\aisquareconnect-python\website\Aiforalpha\www\favicon.png"
+   width="32"
+   height="32"
+   viewBox="0 0 200.74656 200.74656"
+   version="1.1"
+   id="svg5524"
+   sodipodi:docname="logo_favicon.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
+  <sodipodi:namedview
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     scale-x="6.27333"
+     inkscape:document-rotation="0"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="961"
+     id="namedview14"
+     showgrid="false"
+     inkscape:zoom="7.978102"
+     inkscape:cx="31.661267"
+     inkscape:cy="34.983029"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2"
+     inkscape:snap-global="false"
+     inkscape:object-paths="true" />
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect
+     y="-235.74876"
+     x="90.073807"
+     height="203.50012"
+     width="204.61214"
+     id="rect860"
+     style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:3.764;stroke-opacity:1" />
+  <g
+     style="display:inline"
+     inkscape:label="Layer 1"
+     id="layer1"
+     inkscape:groupmode="layer">
+    <rect
+       y="3.4530389"
+       x="3.4530382"
+       height="198.97266"
+       width="198.97266"
+       id="rect874"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.77391;stroke-opacity:1" />
+  </g>
+  <g
+     inkscape:label="Layer 2"
+     id="layer2"
+     inkscape:groupmode="layer">
+    <path
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccc"
+       style="fill:#4885d2;fill-opacity:1;stroke-width:0.953905;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+       d="m 0.355285,0.09810169 0.006,-0.0343 -0.78653003,200.71914831 0.0486,0.0274 200.32877503,-0.17814 0.0193,-0.0157 0.34989,-201.05516831 c 0,0 -0.2524,0.008 -0.30106,0.008 z M 63.285715,48.307015 h 32.0236 L 127.81425,150.00179 H 98.703705 l -19.4087,-56.263825 -0.0953,0.25898 z m 51.597755,1.27281 h 29.59187 l 7.76147,21.68236 H 122.1586 Z m -55.423345,0.2426 15.91904,45.689933 -20.76746,56.522782 -28.61917,-1.03039 z m 96.657425,37.44125 21.34907,63.498625 -29.11055,-0.51797 -21.83039,-62.462685 z"
+       id="rect3721-1" />
+  </g>
+</svg>
