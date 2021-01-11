@@ -98,10 +98,6 @@ const FooterLink = styled(Link)`
         transition: 0.3s ease-out;
     }
 `
-const Icon = styled.div `
-    font-size: 3rem;
-    margin-bottom: 1rem;
-`
 
 const CopyrightContainer = styled.div `
     p {

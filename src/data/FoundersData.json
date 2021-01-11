@@ -1,0 +1,42 @@
+[
+    {
+        "img":"../assets/images/founders/beatrice_guez_benhamou.png",
+        "name":"Béatrice Guez",
+        "title":"CEO",
+        "desc":[
+            "20 years of experience in financial markets",
+            "Experience: Structuration & marketing in investment banking (JP Morgan, Deutsche Bank, Société Générale)",
+            "Education: X/ENSAE, MSc in Finance (LSE)"
+        ]
+    },
+    {
+        "img":"../assets/images/founders/eric_benhamou.png",
+        "name":"Eric Benhamou",
+        "title":"Head of Research",
+        "desc":[
+            "20 years in model development and quantitative finance",
+            "Ex Goldman Sachs and Natixis, founder of a startup in financial software sold to Thomson Reuters",
+            "Education: X/ENSAE, PhDs: Maths (UPE), MSc in Artificial Intelligence (Dauphine MASH)"
+        ]
+    },
+    {
+        "img":"../assets/images/founders/stephane_fadda.png",
+        "name":"Stéphane Fadda",
+        "title":"Head of Sales",
+        "desc":[
+            "Head of sales & CEO of software unicorn (Talend) & A.I. startups",
+            "Serial entrepreneur &advisory skills"
+        ]
+    },
+    {
+        "img":"../assets/images/founders/david_saltiel.png",
+        "name":"David Saltiel",
+        "title":"Data Scientist",
+        "desc":[
+            "Experienced in machine learning and finance",
+            "Ex data scientist in Institut Louis Bachelier Datalab and consultant in actuarial sciences at Prim’Act",
+            "Education: Dauphine, M2 in actuarial sciences, M2 in Artificial Intelligence"
+        ]
+    }
+]
+

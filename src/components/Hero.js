@@ -30,14 +30,14 @@ const HeroContainer = styled.div `
     justify-content: center;
     align-items: center;
     height: 100vh;
-    padding: 0 1rem;
+    padding: 0;
     position: relative;
     margin-top: -80px;
     color: #fff;
 
     :before {
         content: "";
-        position: absolute;
+        position: relative;
         top: 0;
         bottom: 0;
         left: 0;

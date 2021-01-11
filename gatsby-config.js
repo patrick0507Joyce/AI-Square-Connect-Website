@@ -17,7 +17,21 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
+        name: `founderPortraits`,
+        path: `${__dirname}/src/assets/images/founders`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `partnerImages`,
+        path: `${__dirname}/src/assets/images/partners`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `videos`,
         path: `${__dirname}/src/assets/videos`,
       },
     },

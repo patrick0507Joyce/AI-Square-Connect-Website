@@ -2,11 +2,17 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Hero from "../components/Hero"
-import Skills from "../components/Skills"
+import Founders from "../components/company/Founders"
+import Partners from "../components/company/Partners"
+import Text from "../components/company/Text"
 
 const CompanyPage = () => (
   <Layout>
-    <h1>Company</h1>
+    <SEO title="company"/>
+    <Hero />
+    <Text />
+    <Founders />
+    <Partners />
   </Layout>
 )
 
