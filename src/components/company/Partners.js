@@ -122,12 +122,12 @@ const Heading = styled.h1 `
 `
 
 const Description = styled.div `
-    padding: 1rem;
+    padding: 2rem;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
 
     @media screen and (max-width: 768px) {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     @media screen and (max-width: 500px) {

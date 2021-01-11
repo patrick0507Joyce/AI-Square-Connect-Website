@@ -58,7 +58,7 @@ const FooterDesc = styled.div`
 
   h1 {
     margin-bottom: 3rem;
-    color: #f26a2e;
+    color: #0373FC;
   }
 
   @media screen and (max-width: 400px) {
