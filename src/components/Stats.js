@@ -38,7 +38,7 @@ const StatsContainer = styled.div `
 const Wrapper = styled.div `
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
+    grid-gap: 4rem;
     align-items: center;
 
 

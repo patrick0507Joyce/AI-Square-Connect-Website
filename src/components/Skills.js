@@ -64,7 +64,7 @@ export default Skills
 
 const SkillsContainer = styled.div`
     min-height: 100vh;
-    padding: 5rem calc((100vw - 1300px) / 2);
+    padding: 2rem calc((100vw - 1300px) / 2);
     color: #fff;
 `
 
