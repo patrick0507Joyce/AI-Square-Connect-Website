@@ -23,7 +23,7 @@ const Header = () => {
         ))}
       </NavMenu>
       <NavBtn>
-        <Button primary="true" round="true" to="/contact">
+        <Button primary="true" round="true" to="/company">
         Contact Us
         </Button>
       </NavBtn>
