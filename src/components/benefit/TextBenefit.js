@@ -123,6 +123,7 @@ const Description = styled.div`
     font-size: 1.5rem;
     color: #3b3b3b;
     line-height: 2rem;
+    padding-right: 1rem;
   }
 
   ul {
