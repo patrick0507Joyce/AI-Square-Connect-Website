@@ -3,11 +3,11 @@ import React from 'react'
 import styled from 'styled-components'
 import HomeVideo from '../assets/videos/home-video-1.mp4'
 
-const Hero = () => {
+const Hero = ({VideoUrl}) => {
     return (
         <HeroContainer>
             <HeroBg>
-                <VideoBg src={HomeVideo} type="video/mp4" autoPlay loop muted playsInline />
+                <VideoBg src={VideoUrl ? VideoUrl : HomeVideo} type="video/mp4" autoPlay loop muted playsInline />
             </HeroBg>
             <HeroContent>
                 <HeroItems>
