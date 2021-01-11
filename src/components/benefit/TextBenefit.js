@@ -102,7 +102,7 @@ const Wrapper = styled.div`
 const BenefitBox = styled.div`
   height: 100%;
   width: 100%;
-  padding: 2rem;
+  padding: 2rem 0.5rem;
   transition: 2rem;
 `
 
