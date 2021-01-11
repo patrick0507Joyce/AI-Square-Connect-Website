@@ -13,7 +13,7 @@ const Hero = () => {
                 <HeroItems>
                     <HeroH1>Empower with A.I.</HeroH1>
                     <HeroP>Augumented Intelligence for Asset Managers</HeroP>
-                    <Button primary="true" big="true" round="true" to="/contact">
+                    <Button primary="true" big="true" round="true" to="/company">
                         Try now
                     </Button>
                 </HeroItems>
