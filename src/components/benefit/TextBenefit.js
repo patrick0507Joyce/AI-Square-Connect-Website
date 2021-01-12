@@ -18,17 +18,6 @@ const TextBenefit = () => {
           </Description>
         </BenefitBox>
         <BenefitBox>
-          <Heading>Create New Strategies</Heading>
-          <Description>
-            <p>
-              Our value proposition is to enable the manager code its own
-              strategies, test them with a process based on traditional
-              management (backtest, paper trading, risk limits, etc.) and
-              improve them thanks to the methods implemented on the platform.
-            </p>
-          </Description>
-        </BenefitBox>
-        <BenefitBox>
           <Heading>Improve Trading Platform</Heading>
           <Description>
             <p>

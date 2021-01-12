@@ -7,7 +7,7 @@ import TextNews from "../components/news/TextNews"
 
 const NewsPage = () => (
   <Layout>
-    <SEO title="company"/>
+    <SEO title="news"/>
     <HeroWithStaticBg ImageUrl={ImageUrl} />    
     <TextNews />
   </Layout>
