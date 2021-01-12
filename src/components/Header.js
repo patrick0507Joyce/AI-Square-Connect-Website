@@ -34,7 +34,8 @@ const Header = () => {
 export default Header
 
 const Nav = styled.nav`
-  background: transparent;
+  opacity: 0.8;
+  background: grey;
   height: 80px;
   display: flex;
   justify-content: space-between;
@@ -50,14 +51,14 @@ const NavLink = styled(Link)`
   padding: 0px 1rem;
   height: 100%;
   cursor: pointer;
+  font-size: 1.2rem;
 `
 
 const Logo = styled.img `
 
   width: 4rem;
   height: 4rem;
-  margin-top: 1rem;
-  margin-left: 1rem;
+  margin: 1rem;
 
   @media screen and (max-width: 768px) {
     width: 2.5rem;
@@ -93,6 +94,7 @@ const NavMenu = styled.div `
 const NavBtn = styled.div `
   display: flex;
   align-items: center;
+  opacity: 1;
 
   @media screen and (max-width: 768px) {
     display: none;

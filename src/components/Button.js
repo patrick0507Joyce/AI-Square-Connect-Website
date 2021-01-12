@@ -19,5 +19,6 @@ export const Button = styled(Link)`
     &:hover {
         background: ${({primary}) => (primary ? '#077BF1' : '#F26A2E')}
         transform: translateY(-2px);
+        filter: brightness(120%);
     }
 `
