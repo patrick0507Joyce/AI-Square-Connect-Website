@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link } from "gatsby"
 import styled from 'styled-components'
 import { FaBars } from "react-icons/fa"
@@ -7,14 +7,17 @@ import { Button } from "./Button"
 import Icon from "../assets/svg/logo_favicon.svg"
 
 const Header = () => {
-  //TODO: navigate to our team subcomponent
+  const [navbarOpen, setNavbarOpen] = useState(false);
+
+  //TODO: navigate to our page subcomponent
   
   return (
     <Nav>
       <NavLink to="/">
         <Logo src={Icon} alt="Logo"/>
       </NavLink>
-      <Bars />
+      <Bars onClick={() => setNavbarOpen(!navbarOpen)}>
+      </Bars>
       <NavMenu>
         {menuData.map((item, index) => (
           <NavLink to={item.link} key={index}>
@@ -22,6 +25,13 @@ const Header = () => {
           </NavLink>
         ))}
       </NavMenu>
+      <NavContent navbarOpen={navbarOpen}>
+        {menuData.map((item, index) => (
+          <NavLink to={item.link} key={index}>
+            {item.title}
+          </NavLink>
+        ))}
+      </NavContent>
       <NavBtn>
         <Button primary="true" round="true" to="/company">
         Contact Us
@@ -34,7 +44,6 @@ const Header = () => {
 export default Header
 
 const Nav = styled.nav`
-  opacity: 0.8;
   background: grey;
   height: 80px;
   display: flex;
@@ -42,13 +51,16 @@ const Nav = styled.nav`
   z-index: 100;
   position: relative; 
 
+
   @media screen and (max-width: 768px) {
     background: transparent;
+
   }
 `
 
 const NavLink = styled(Link)`
-  color: #fff;
+  color: #f7f5f5;
+  filter: brightness(90%);
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -56,6 +68,18 @@ const NavLink = styled(Link)`
   height: 100%;
   cursor: pointer;
   font-size: 1.2rem;
+  transition: filter 300ms;
+
+  &:hover {
+    filter: brightness(200%);
+    color: white;
+  }
+  
+  @media screen and (max-width: 768px) {
+    color: black;
+    font-weight: 450;
+  }
+
 `
 
 const Logo = styled.img `
@@ -72,16 +96,17 @@ const Logo = styled.img `
 
 const Bars = styled(FaBars)`
 display: none;
-color: #fff;
+
 
 @media screen and (max-width: 768px) {
   display: block;
   position: absolute;
   top: 0;
   right: 0;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   transform: translate(-100%, 75%);
   font-size: 1.8rem;
+  color: black;
 }
 `
 
@@ -101,6 +126,27 @@ const NavBtn = styled.div `
   opacity: 1;
 
   @media screen and (max-width: 768px) {
+    display: none;
+  }
+`
+
+const NavContent = styled.div `
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50vh;
+  width: 100%;
+  position: absolute;
+  top: 4rem;
+  right: 0;
+  transform: ${({navbarOpen}) => (navbarOpen ? "translateX(0)" : "translateX(100%)")};
+  color: black;
+  background: transparent;
+  backdrop-filter: blur(20px);
+
+  @media screen and (min-width: 768px) {
     display: none;
   }
 `
