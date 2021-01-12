@@ -10,8 +10,7 @@ const Text = () => {
   return (
     <TextContainer>
         <TestimonialsContainer>
-      <TopLine>Contents</TopLine>
-      <Description>Our Context</Description>
+      <TopLine>Our Context</TopLine>
       <ContentWrapper>
         <ColumnOne>
           <Testimonial>
@@ -44,8 +43,7 @@ const Text = () => {
       </ContentWrapper>
     </TestimonialsContainer>
     <TestimonialsContainer>
-      <TopLine>Visions</TopLine>
-      <Description>Our Vision</Description>
+      <TopLine>Our Vision</TopLine>
       <ContentWrapper>
       <ColumnOne>
             <Images src={ContextImg2} alt={"context"} />
@@ -70,8 +68,7 @@ const Text = () => {
       </ContentWrapper>
       </TestimonialsContainer>
       <TestimonialsContainer>
-      <TopLine>Storys</TopLine>
-      <Description>Our Story</Description>
+      <TopLine>Our Story</TopLine>
       <ContentWrapper>
         <ColumnOne>
           <Testimonial>
@@ -113,9 +110,15 @@ const TestimonialsContainer = styled.div`
 `
 const TopLine = styled.p`
   color: #077bf1;
-  font-size: 2rem;
-  padding-left: 2rem;
-  margin-bottom: 0.75rem;
+  font-size: 2.5rem;
+  padding-left: 2.5rem;
+  
+
+  @media screen and (max-width: 768px) {
+    font-size: 2rem;
+    padding-left: 2rem;
+    margin-bottom: 1.5rem;
+  }
 `
 
 const Description = styled.div`
