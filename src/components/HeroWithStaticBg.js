@@ -2,7 +2,7 @@ import { Button } from './Button'
 import React from 'react'
 import styled from 'styled-components'
 
-const HeroWithStaticBg = ({ImageUrl}) => {
+const HeroWithStaticBg = ({ImageUrl, title, subtitle}) => {
     return (
         <HeroContainer>
             <HeroBg>
@@ -10,8 +10,8 @@ const HeroWithStaticBg = ({ImageUrl}) => {
             </HeroBg>
             <HeroContent>
                 <HeroItems>
-                    <HeroH1>Empower with A.I.</HeroH1>
-                    <HeroP>Augumented Intelligence for Asset Managers</HeroP>
+                <HeroH1>{title ? title : "Empower with A.I."}</HeroH1>
+                    <HeroP>{subtitle ? subtitle : "Augumented Intelligence for Asset Managers"}</HeroP>
                     <Button primary="true" big="true" round="true" to="/company">
                         Try now
                     </Button>

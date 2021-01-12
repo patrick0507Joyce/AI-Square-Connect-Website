@@ -8,7 +8,7 @@ import TextContact from "../components/contact/TextContact"
 const ContactPage = () => (
   <Layout>
     <SEO title="contact" />
-    <Hero VideoUrl={VideoUrl} />
+    <Hero VideoUrl={VideoUrl} title={"CONTACT US"} subtitle={" "}/>
     <TextContact />
   </Layout>
 )

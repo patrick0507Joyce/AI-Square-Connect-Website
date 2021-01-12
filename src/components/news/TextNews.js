@@ -343,7 +343,7 @@ const TextNews = () => {
             </ContentWrapper>
             <ContentWrapper>
                 <ColumnOne>
-                    <Images src={ContextImg2} />
+                    <Images src={ContextImg22} />
                 </ColumnOne>
                 <ColumnTwo>
                     <News>

@@ -8,7 +8,7 @@ import TextNews from "../components/news/TextNews"
 const NewsPage = () => (
   <Layout>
     <SEO title="news"/>
-    <HeroWithStaticBg ImageUrl={ImageUrl} />    
+    <HeroWithStaticBg ImageUrl={ImageUrl} title={"LATEST NEWS"} subtitle={"Follow Ai Square Connect on our Website"}/>    
     <TextNews />
   </Layout>
 )

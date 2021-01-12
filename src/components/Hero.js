@@ -3,7 +3,7 @@ import React from 'react'
 import styled from 'styled-components'
 import HomeVideo from '../assets/videos/home-video-1.mp4'
 
-const Hero = ({VideoUrl}) => {
+const Hero = ({VideoUrl, title, subtitle}) => {
     return (
         <HeroContainer>
             <HeroBg>
@@ -11,8 +11,8 @@ const Hero = ({VideoUrl}) => {
             </HeroBg>
             <HeroContent>
                 <HeroItems>
-                    <HeroH1>Empower with A.I.</HeroH1>
-                    <HeroP>Augumented Intelligence for Asset Managers</HeroP>
+                    <HeroH1>{title ? title : "Empower with A.I."}</HeroH1>
+                    <HeroP>{subtitle ? subtitle : "Augumented Intelligence for Asset Managers"}</HeroP>
                     <Button primary="true" big="true" round="true" to="/company">
                         Try now
                     </Button>
