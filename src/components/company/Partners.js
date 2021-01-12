@@ -90,8 +90,9 @@ const Wrapper = styled.div `
 const PartnerImg = styled(Img) `
     position: relative;
     align-item: center;
-    width: 30rem;
-    filter: brightness(60%);
+    width: 20rem;
+    filter: brightness(90%);
+    margin: auto;
 
 
     &:hover {
@@ -99,13 +100,7 @@ const PartnerImg = styled(Img) `
     }
 
     @media screen and (max-width: 768px) {
-        width: 90%;
-        height: 90%;
-    }
 
-    @media screen and (max-width: 500px) {
-        width: 80%;
-        height: 80%;
     }
 `
 
