@@ -143,8 +143,8 @@ const NavContent = styled.div `
   right: 0;
   transform: ${({navbarOpen}) => (navbarOpen ? "translateX(0)" : "translateX(100%)")};
   color: black;
-  background: transparent;
-  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, .9);
+
 
   @media screen and (min-width: 768px) {
     display: none;
