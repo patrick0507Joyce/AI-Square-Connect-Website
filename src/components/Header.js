@@ -50,7 +50,7 @@ const Nav = styled.nav`
   justify-content: space-between;
   z-index: 100;
   position: relative; 
-
+  opacity: 0.8;
 
   @media screen and (max-width: 768px) {
     background: transparent;
