@@ -73,6 +73,10 @@ const NavLink = styled(Link)`
   &:hover {
     filter: brightness(200%);
     color: white;
+    text-decoration: underline;
+    text-decoration-color: #0373FC;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 0.5rem;
   }
   
   @media screen and (max-width: 768px) {
