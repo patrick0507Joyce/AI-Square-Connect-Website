@@ -43,6 +43,7 @@ const ContactContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   padding: 4rem calc((100vw - 1300px) / 2);
+  margin: 0 2rem;
 `
 
 const Wrapper = styled.div`
