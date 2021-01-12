@@ -9,6 +9,7 @@ const Partners = () => {
         allPartnersDataJson {
           nodes {
             Desc
+            webLink
             img {
               childImageSharp {
                 fluid(maxWidth: 300) {
@@ -25,11 +26,13 @@ const Partners = () => {
         const partnersArray = [];
         data.allPartnersDataJson.nodes.forEach((item, index) => {
             partnersArray.push (
+                    <ExternalLink href={item.webLink} target="_blank">
                     <PartnerImg 
                     src={item.img.childImageSharp.fluid.src}
                     alt={item.Desc}
                     fluid={item.img.childImageSharp.fluid}
                     />
+                    </ExternalLink>
             );
             partnersArray.push (
                 <Description>
@@ -133,4 +136,9 @@ const Description = styled.div `
     @media screen and (max-width: 500px) {
         font-size: 1.2rem;
     }
+`
+
+const ExternalLink = styled.a `
+    text-decorations:none; 
+    color:inherit;
 `
