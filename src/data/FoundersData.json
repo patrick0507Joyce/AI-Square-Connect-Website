@@ -3,6 +3,7 @@
         "img":"../assets/images/founders/beatrice_guez_benhamou.png",
         "name":"Béatrice Guez",
         "title":"CEO",
+        "linkedin":"https://www.linkedin.com/in/b%C3%A9atrice-guez-60747114/?originalSubdomain=fr",
         "desc":[
             "20 years of experience in financial markets",
             "Experience: Structuration & marketing in investment banking (JP Morgan, Deutsche Bank, Société Générale)",
@@ -13,6 +14,7 @@
         "img":"../assets/images/founders/eric_benhamou.png",
         "name":"Eric Benhamou",
         "title":"Head of Research",
+        "linkedin":"https://www.linkedin.com/in/eric-benhamou-902151?originalSubdomain=fr",
         "desc":[
             "20 years in model development and quantitative finance",
             "Ex Goldman Sachs and Natixis, founder of a startup in financial software sold to Thomson Reuters",
@@ -22,6 +24,7 @@
     {
         "img":"../assets/images/founders/stephane_fadda.png",
         "name":"Stéphane Fadda",
+        "linkedin":"https://www.linkedin.com/in/stephanefadda/?originalSubdomain=fr",
         "title":"Head of Sales",
         "desc":[
             "Head of sales & CEO of software unicorn (Talend) & A.I. startups",
@@ -32,6 +35,7 @@
         "img":"../assets/images/founders/david_saltiel.png",
         "name":"David Saltiel",
         "title":"Data Scientist",
+        "linkedin":"https://www.linkedin.com/in/stephanefadda/?originalSubdomain=fr",
         "desc":[
             "Experienced in machine learning and finance",
             "Ex data scientist in Institut Louis Bachelier Datalab and consultant in actuarial sciences at Prim’Act",

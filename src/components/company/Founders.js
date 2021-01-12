@@ -2,6 +2,7 @@ import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import styled from 'styled-components'
+import LinkedinLogo from '../../assets/images/founders/Linkedin-logo.png'
 
 const Founders = () => {
     const data = useStaticQuery(graphql`
@@ -19,6 +20,7 @@ const Founders = () => {
               name
               title
               desc
+              linkedin
             }
           }
         }
@@ -30,11 +32,20 @@ const Founders = () => {
         data.allFoundersDataJson.edges.forEach((item, index) => {
             foundersArray.push (
                 <StatsBox key={index}>
+                    <ImageWrapper>
                     <FounderImg 
                     src={item.node.img.childImageSharp.fluid.src}
                     alt={item.node.name}
                     fluid={item.node.img.childImageSharp.fluid}
                     />
+                    <ExternalLink href={item.node.linkedin} target="_blank">
+                    <FounderOverlay>
+                        <h4>{item.node.name}</h4>
+                        <p>{item.node.title}</p>
+                        <img src={LinkedinLogo} />
+                    </FounderOverlay>
+                    </ExternalLink>
+                    </ImageWrapper>
                     <Name>{item.node.name}</Name>
                     <Title>{item.node.title}</Title>
                     <Description>
@@ -74,7 +85,7 @@ const FoundersContainer = styled.div `
     justify-content: center;
     align-items: center;
     margin-right: 1rem;
-    padding: 3rem 0;
+    padding: 3.5rem 0;
 `
 
 const Wrapper = styled.div `
@@ -96,17 +107,59 @@ const Wrapper = styled.div `
 const StatsBox = styled.div `
     height: 100%;
     width: 100%;
-    padding: 2rem 0;
+    padding: 2rem 1rem;
     transition: 2rem;
+`
+const ImageWrapper = styled.div `
+    position: relative;
+`
+
+const FounderOverlay = styled.div `
+    position: absolute;
+    top: 0;
+    left: 3rem;
+    width: 70%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.2);
+    opacity: 0;
+
+    h4 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+    }
+
+    img {
+        width: 50%;
+    }
+
+    &:hover {
+        opacity: 1;
+    }
+
+`
+
+const ExternalLink = styled.a `
+    text-decorations:none; 
+    color:inherit;
 `
 
 const FounderImg = styled(Img) `
-    filter: brightness(70%);
-
+    display: block;
+    width: 70%;
+    margin: auto;
 
     &:hover {
-        filter: brightness(100%);
+        filter:brightness(70%);
     }
+
 `
 
 const Heading = styled.h1 `
@@ -126,8 +179,7 @@ const Heading = styled.h1 `
 
 const Name = styled.div `
     font-size: clamp(1rem, 2.5vw, 1.5rem);
-    margin-bottom: 0.5rem;
-    margin-left: 0.5rem;
+    margin: 0.2rem 0.5rem 0;
 
     @media screen and (max-width: 768px) {
         font-size: 1.5rem;
@@ -162,3 +214,5 @@ const Description = styled.ul `
         font-size: 1rem;
     }
 `
+
+
