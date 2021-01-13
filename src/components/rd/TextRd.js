@@ -17,6 +17,22 @@ const TextRd = () => {
                  [pdf]
             </ExternalLink> 
           </p>
+
+          <br />
+          <p>
+            Authors:
+            <ExternalLink href={"https://arxiv.org/search/?searchtype=author&query=Benhamou%2C+E"} target="_blank">
+                Eric Benhamou,
+            </ExternalLink>
+            <ExternalLink href={"https://arxiv.org/search/?query=beatrice+guez&searchtype=all&source=header"} target="_blank">
+                Beatrice Guez,
+            </ExternalLink> 
+            <ExternalLink href={"https://arxiv.org/search/?searchtype=author&query=Paris1%2C+N"} target="_blank">
+                Nicolas Paris
+            </ExternalLink> 
+          </p>
+          <br />
+
           <p>
             <ReactReadMoreReadLess
               charLimit={300}
@@ -53,6 +69,14 @@ const TextRd = () => {
                 [pdf]
             </ExternalLink> 
           </p>
+          <br />
+          <p>
+            Authors:
+            <ExternalLink href={"https://arxiv.org/search/?searchtype=author&query=Benhamou%2C+E"} target="_blank">
+                Eric Benhamou
+            </ExternalLink>
+          </p>
+          <br />
           <p>
             <ReactReadMoreReadLess
               charLimit={300}
@@ -77,6 +101,25 @@ const TextRd = () => {
                 [pdf]
             </ExternalLink> 
           </p>
+
+          <br />
+          <p>
+            Authors:
+            <ExternalLink href={"https://arxiv.org/search/?searchtype=author&query=Benhamou%2C+E"} target="_blank">
+                Eric Benhamou,
+            </ExternalLink>
+            <ExternalLink href={"rhttps://arxiv.org/search/cs?searchtype=author&query=Saltiel%2C+D"} target="_blank">
+                David Saltiel,
+            </ExternalLink>
+            <ExternalLink href={"https://arxiv.org/search/?query=beatrice+guez&searchtype=all&source=header"} target="_blank">
+                Beatrice Guez,
+            </ExternalLink> 
+            <ExternalLink href={"https://arxiv.org/search/?searchtype=author&query=Paris1%2C+N"} target="_blank">
+                Nicolas Paris
+            </ExternalLink> 
+          </p>
+          <br />
+
           <p>
             <ReactReadMoreReadLess
               charLimit={300}
@@ -101,6 +144,25 @@ const TextRd = () => {
                 [pdf]
             </ExternalLink> 
           </p>
+
+          <br />
+          <p>
+            Authors:
+            <ExternalLink href={"https://arxiv.org/search/?searchtype=author&query=Benhamou%2C+E"} target="_blank">
+                Eric Benhamou,
+            </ExternalLink>
+            <ExternalLink href={"https://arxiv.org/search/?searchtype=author&query=Benhamou%2C+E"} target="_blank">
+                Jamal Atif,
+            </ExternalLink> 
+            <ExternalLink href={"https://arxiv.org/search/?searchtype=author&query=Benhamou%2C+E"} target="_blank">
+                Rida Laraki,
+            </ExternalLink>
+            <ExternalLink href={"rhttps://arxiv.org/search/cs?searchtype=author&query=Saltiel%2C+D"} target="_blank">
+                David Saltiel,
+            </ExternalLink>
+          </p>
+          <br />
+          
           <p>
             <ReactReadMoreReadLess
               charLimit={300}
@@ -124,6 +186,16 @@ const TextRd = () => {
                 [pdf]
             </ExternalLink> 
           </p>
+
+          <br />
+          <p>
+            Authors:
+            <ExternalLink href={"https://arxiv.org/search/?searchtype=author&query=Benhamou%2C+E"} target="_blank">
+                Eric Benhamou,
+            </ExternalLink>
+          </p>
+          <br />
+
           <p>
             <ReactReadMoreReadLess
               charLimit={300}
@@ -147,6 +219,25 @@ const TextRd = () => {
                 [pdf]
             </ExternalLink> 
           </p>
+
+          <br />
+          <p>
+            Authors:
+            <ExternalLink href={"https://arxiv.org/search/?searchtype=author&query=Benhamou%2C+E"} target="_blank">
+                Eric Benhamou,
+            </ExternalLink>
+            <ExternalLink href={"rhttps://arxiv.org/search/cs?searchtype=author&query=Saltiel%2C+D"} target="_blank">
+                David Saltiel,
+            </ExternalLink>
+            <ExternalLink href={"https://arxiv.org/search/?query=beatrice+guez&searchtype=all&source=header"} target="_blank">
+                Beatrice Guez,
+            </ExternalLink> 
+            <ExternalLink href={"https://arxiv.org/search/?searchtype=author&query=Paris1%2C+N"} target="_blank">
+                Nicolas Paris
+            </ExternalLink> 
+          </p>
+          <br />
+
           <p>
             <ReactReadMoreReadLess
               charLimit={300}
@@ -171,6 +262,21 @@ const TextRd = () => {
                 [pdf]
             </ExternalLink> 
           </p>
+
+          <br />
+          <p>
+            Authors:
+            <ExternalLink href={"https://arxiv.org/search/?searchtype=author&query=Benhamou%2C+E"} target="_blank">
+                Eric Benhamou,
+            </ExternalLink>
+            <ExternalLink href={"https://arxiv.org/search/?searchtype=author&query=Benhamou%2C+E"} target="_blank">
+                Jamal Atif,
+            </ExternalLink> 
+            <ExternalLink href={"https://arxiv.org/search/?searchtype=author&query=Benhamou%2C+E"} target="_blank">
+                Rida Laraki,
+            </ExternalLink>
+          </p>
+          <br />
           <p>
             <ReactReadMoreReadLess
               charLimit={300}
@@ -194,6 +300,40 @@ const TextRd = () => {
                 [pdf]
             </ExternalLink> 
           </p>
+
+          <br />
+          <p>
+            Authors:
+            <ExternalLink href={"https://arxiv.org/search/?searchtype=author&query=Benhamou%2C+E"} target="_blank">
+                Eric Benhamou,
+            </ExternalLink>
+            <ExternalLink href={"https://arxiv.org/search/?searchtype=author&query=Benhamou%2C+E"} target="_blank">
+                Jamal Atif,
+            </ExternalLink> 
+            <ExternalLink href={"https://arxiv.org/search/?searchtype=author&query=Benhamou%2C+E"} target="_blank">
+                Rida Laraki,
+            </ExternalLink>
+          </p>
+          <br />
+
+          <br />
+          <p>
+            Authors:
+            <ExternalLink href={"https://arxiv.org/search/?searchtype=author&query=Benhamou%2C+E"} target="_blank">
+                Eric Benhamou,
+            </ExternalLink>
+            <ExternalLink href={"rhttps://arxiv.org/search/cs?searchtype=author&query=Saltiel%2C+D"} target="_blank">
+                David Saltiel,
+            </ExternalLink>
+            <ExternalLink href={"https://arxiv.org/search/?query=beatrice+guez&searchtype=all&source=header"} target="_blank">
+                Beatrice Guez,
+            </ExternalLink> 
+            <ExternalLink href={"https://arxiv.org/search/?searchtype=author&query=Paris1%2C+N"} target="_blank">
+                Nicolas Paris
+            </ExternalLink> 
+          </p>
+          <br />
+
           <p>
             <ReactReadMoreReadLess
               charLimit={300}
@@ -218,6 +358,22 @@ const TextRd = () => {
                 [pdf]
             </ExternalLink> 
           </p>
+
+          <br />
+          <p>
+            Authors:
+            <ExternalLink href={"https://arxiv.org/search/?searchtype=author&query=Benhamou%2C+E"} target="_blank">
+                Eric Benhamou,
+            </ExternalLink>
+            <ExternalLink href={"https://arxiv.org/search/?searchtype=author&query=Benhamou%2C+E"} target="_blank">
+                Jamal Atif,
+            </ExternalLink> 
+            <ExternalLink href={"https://arxiv.org/search/?searchtype=author&query=Benhamou%2C+E"} target="_blank">
+                Rida Laraki,
+            </ExternalLink>
+          </p>
+          <br />
+          
           <p>
             <ReactReadMoreReadLess
               charLimit={300}
