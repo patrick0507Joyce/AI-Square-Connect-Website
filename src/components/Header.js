@@ -174,6 +174,7 @@ const DropDownContent = styled.div `
   background-color: rgba(0, 0, 0, 1);
   display: flex;
   opacity: ${({isDropped}) => (isDropped ? 1 : 0)};
+  padding: 0 1rem;
   
   flex-direction: column;
   justify-content: center;
