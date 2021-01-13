@@ -91,6 +91,7 @@ const FooterLinkTitle = styled.div`
 const FooterLink = styled(Link)`
     text-decoration: none;
     margin-bottom: 0.5rem;
+    margin-left: 0.25rem;
     font-size: 14px;
     color: #3d3d4e;
 
