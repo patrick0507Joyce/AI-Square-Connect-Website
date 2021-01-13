@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import ImageUrl from "../assets/images/rdContext/context-1.png"
 import SEO from "../components/seo"
 import HeroWithStaticBg from "../components/HeroWithStaticBg"
-import TextRd from "../components/Rd/TextRd"
+import TextRd from "../components/rd/TextRd"
 
 const RDPage = () => (
   <Layout>
