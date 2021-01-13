@@ -9,7 +9,7 @@ import ReactReadMoreReadLess from "react-read-more-read-less";
 const Text = () => {
   return (
     <TextContainer>
-        <TestimonialsContainer>
+        <TestimonialsContainer id="company-context">
       <TopLine>Our Context</TopLine>
       <ContentWrapper>
         <ColumnOne>
@@ -42,7 +42,7 @@ const Text = () => {
         </ColumnTwo>
       </ContentWrapper>
     </TestimonialsContainer>
-    <TestimonialsContainer>
+    <TestimonialsContainer id="company-vision">
       <TopLine>Our Vision</TopLine>
       <ContentWrapper>
       <ColumnOne>
@@ -67,7 +67,7 @@ const Text = () => {
         </ColumnTwo>
       </ContentWrapper>
       </TestimonialsContainer>
-      <TestimonialsContainer>
+      <TestimonialsContainer id="company-story">
       <TopLine>Our Story</TopLine>
       <ContentWrapper>
         <ColumnOne>
@@ -90,7 +90,6 @@ const Text = () => {
       </ContentWrapper>
       </TestimonialsContainer>
     </TextContainer>
-    
   )
 }
 

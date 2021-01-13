@@ -39,7 +39,7 @@ const Header = () => {
                 item.subMenus ? 
               (<DropDownContent isDropped={index== menuIndex ? true : false}>
                 {item.subMenus.map((subitem, index) => (
-                  <DropDownLink to="/" key={index}>{subitem.title}</DropDownLink>
+                  <DropDownLink to={subitem.subLink} key={index}>{subitem.title}</DropDownLink>
                 ))}
               </DropDownContent>) 
               : 
@@ -174,7 +174,7 @@ const DropDownContent = styled.div `
   background-color: rgba(0, 0, 0, 1);
   display: flex;
   opacity: ${({isDropped}) => (isDropped ? 1 : 0)};
-  padding: 0 1rem;
+  padding: 0 0.2rem;
   
   flex-direction: column;
   justify-content: center;

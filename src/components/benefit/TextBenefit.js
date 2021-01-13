@@ -6,7 +6,7 @@ const TextBenefit = () => {
   return (
     <BenefitsContainer>
       <Wrapper>
-        <BenefitBox>
+        <BenefitBox id="benefit-strategies">
           <Heading>Create New Strategies</Heading>
           <Description>
             <p>
@@ -17,7 +17,7 @@ const TextBenefit = () => {
             </p>
           </Description>
         </BenefitBox>
-        <BenefitBox>
+        <BenefitBox id="benefit-prediction">
           <Heading>Improve Trading Platform</Heading>
           <Description>
             <p>
@@ -32,7 +32,7 @@ const TextBenefit = () => {
             </p>
           </Description>
         </BenefitBox>
-        <BenefitBox>
+        <BenefitBox id="benefit-allocation">
           <Heading>Find the Best Portfolio Allocation</Heading>
           <Description>
             <p>
@@ -40,7 +40,7 @@ const TextBenefit = () => {
             </p>
           </Description>
         </BenefitBox>
-        <BenefitBox>
+        <BenefitBox id="benefit-crisis">
           <Heading>Anticipate Crisis</Heading>
           <Description>
             <p>
@@ -48,7 +48,7 @@ const TextBenefit = () => {
             </p>
           </Description>
         </BenefitBox>
-        <BenefitBox>
+        <BenefitBox id="benefit-risk">
           <Heading>Risk Management</Heading>
           <Description>
             <p>

@@ -11,7 +11,7 @@ import ReactReadMoreReadLess from "react-read-more-read-less";
 const Text = () => {
   return (
     <TextContainer>
-        <TestimonialsContainer>
+        <TestimonialsContainer id="technology-platform">
       <TopLine>Platform</TopLine>
       <Description>Systematic Trading Platform</Description>
       <ContentWrapper>
@@ -34,7 +34,7 @@ const Text = () => {
         </ColumnTwo>
       </ContentWrapper>
     </TestimonialsContainer>
-    <TestimonialsContainer>
+    <TestimonialsContainer id="technology-description">
       <TopLine>Strategy</TopLine>
       <Description>Strategy Description</Description>
       <ContentWrapper>
@@ -56,7 +56,7 @@ const Text = () => {
         </ColumnTwo>
       </ContentWrapper>
       </TestimonialsContainer>
-      <TestimonialsContainer>
+      <TestimonialsContainer id="technology-supervised">
       <TopLine>Optimisation</TopLine>
       <Description>Cutting Edge Optimisation</Description>
       <ContentWrapper>
@@ -79,7 +79,7 @@ const Text = () => {
         </ColumnTwo>
       </ContentWrapper>
       </TestimonialsContainer>
-      <TestimonialsContainer>
+      <TestimonialsContainer id="technology-optimisation">
       <TopLine>Methods</TopLine>
       <Description>Supervised Learning</Description>
       <ContentWrapper>
@@ -102,7 +102,7 @@ const Text = () => {
         </ColumnTwo>
       </ContentWrapper>
       </TestimonialsContainer>
-      <TestimonialsContainer>
+      <TestimonialsContainer id="technology-reinforcement">
       <TopLine>Methods</TopLine>
       <Description>Reinforcement Learning</Description>
       <ContentWrapper>
