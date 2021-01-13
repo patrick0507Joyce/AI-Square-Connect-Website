@@ -651,6 +651,17 @@ const TextRd = () => {
                 [pdf]
             </ExternalLink> 
           </p>
+          <br />
+          <p>
+            Authors:
+            <ExternalLink href={"https://arxiv.org/search/?searchtype=author&query=Benhamou%2C+E"} target="_blank">
+                Eric Benhamou,
+            </ExternalLink>
+            <ExternalLink href={"https://arxiv.org/search/?query=beatrice+guez&searchtype=all&source=header"} target="_blank">
+                Beatrice Guez,
+            </ExternalLink> 
+          </p>
+          <br />
           <p>
             <ReactReadMoreReadLess
               charLimit={300}
