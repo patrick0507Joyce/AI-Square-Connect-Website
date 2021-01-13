@@ -507,6 +507,7 @@ const ContentWrapper = styled.div`
 
 const Paper = styled.div`
   padding-right: 2rem;
+  margin: 1.5rem 0;
 
   h3 {
     margin-bottom: 1rem;
