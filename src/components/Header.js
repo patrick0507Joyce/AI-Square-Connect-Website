@@ -8,7 +8,6 @@ import Icon from "../assets/svg/logo_favicon.svg"
 
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
-  const [style, setStyle] = useState({display: 'none'});
   const [menuIndex, setMenuIndex] =useState(-1);
   
   return (
@@ -18,18 +17,12 @@ const Header = () => {
       </NavLink>
       <Bars onClick={() => setNavbarOpen(true)} />
       <NavMenu onMouseLeave={e => {
-                     setStyle({display: 'none'});
                      setMenuIndex(-1);
                  }}>
         <NavMenuWrapper>
         {menuData.map((item, index) => (
           
             <NavLink to={item.link} key={index} onMouseEnter={e => {
-                     item.subMenus === undefined
-                     ? 
-                     setStyle({display: 'none'}) 
-                     : 
-                     setStyle({});
                      item.subMenus === undefined
                      ?
                      setMenuIndex(-1)
@@ -86,9 +79,8 @@ const NavLink = styled(Link)`
   color: #f7f5f5;
   filter: brightness(90%);
   display: flex;
-  align-items: center;
   text-decoration: none;
-  padding: 0px 1rem;
+  padding: 1rem 1rem;
   cursor: pointer;
   font-size: 1.2rem;
   transition: filter 300ms;
