@@ -15,20 +15,21 @@ const Footer = () => {
         </FooterDesc>
         <FooterLinkItems>
           <FooterLinkTitle>Company</FooterLinkTitle>
-          <FooterLinkTitle to="/">Context</FooterLinkTitle>
-          <FooterLinkTitle to="/">Our Vision</FooterLinkTitle>
-          <FooterLinkTitle to="/">Our Story</FooterLinkTitle>
-          <FooterLinkTitle to="/">Founders</FooterLinkTitle>
-          <FooterLinkTitle to="/">Partners</FooterLinkTitle>
+          <FooterLink to="/company/#company-context">Context</FooterLink>
+          <FooterLink to="/company/#company-vision">Our Vision</FooterLink>
+          <FooterLink to="/company/#company-story">Our Story</FooterLink>
+          <FooterLink to="/company/#company-founder">Founders</FooterLink>
+          <FooterLink to="/company/#company-partner">Partners</FooterLink>
         </FooterLinkItems>
       </FooterLinksWrapper>
       <FooterLinksWrapper>
         <FooterLinkItems>
           <FooterLinkTitle>Technology</FooterLinkTitle>
-          <FooterLink to="/">Systematic trading platform</FooterLink>
-          <FooterLink to="/">Supervised learning</FooterLink>
-          <FooterLink to="/">Supervised learning</FooterLink>
-          <FooterLink to="/">Reinforcement learning</FooterLink>
+          <FooterLink to="/technology/#technology-platform">Systematic trading platform</FooterLink>
+          <FooterLink to="/technology/#technology-description">Supervised learning</FooterLink>
+          <FooterLink to="/technology/#technology-supervised">Supervised learning</FooterLink>
+          <FooterLink to="/technology/#technology-optimisation">Cutting edge optimisation</FooterLink>
+          <FooterLink to="/technology/#technology-reinforcement">Reinforcement learning</FooterLink>
         </FooterLinkItems>
         <FooterLinkItems>
           <FooterLinkTitle>Social Media</FooterLinkTitle>
@@ -84,7 +85,7 @@ const FooterLinkItems = styled.div`
   }
 `
 const FooterLinkTitle = styled.div`
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 16px;
 `
 const FooterLink = styled(Link)`
