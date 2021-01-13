@@ -16,8 +16,7 @@ const Header = () => {
       <NavLink to="/">
         <Logo src={Icon} alt="Logo"/>
       </NavLink>
-      <Bars onClick={() => setNavbarOpen(!navbarOpen)}>
-      </Bars>
+      <Bars onClick={() => setNavbarOpen(!navbarOpen)} />
       <NavMenu>
         {menuData.map((item, index) => (
           <NavLink to={item.link} key={index}>
@@ -44,18 +43,13 @@ const Header = () => {
 export default Header
 
 const Nav = styled.nav`
-  background: grey;
+  background: transparent;
   height: 80px;
   display: flex;
   justify-content: space-between;
   z-index: 100;
   position: relative; 
-  opacity: 0.8;
-
-  @media screen and (max-width: 768px) {
-    background: transparent;
-
-  }
+  opacity: 0.8;  
 `
 
 const NavLink = styled(Link)`
@@ -80,7 +74,7 @@ const NavLink = styled(Link)`
   }
   
   @media screen and (max-width: 768px) {
-    color: black;
+    color: white;
     font-weight: 450;
   }
 
@@ -110,7 +104,7 @@ display: none;
   margin-top: 0.5rem;
   transform: translate(-100%, 75%);
   font-size: 1.8rem;
-  color: black;
+  color: white;
 }
 `
 
@@ -135,6 +129,8 @@ const NavBtn = styled.div `
 `
 
 const NavContent = styled.div `
+  background-color: rgba(0, 0, 0, 1);
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -146,10 +142,7 @@ const NavContent = styled.div `
   top: 4rem;
   right: 0;
   transform: ${({navbarOpen}) => (navbarOpen ? "translateX(0)" : "translateX(100%)")};
-  color: black;
-  background-color: rgba(255, 255, 255, .9);
-  backdrop-filter: blur(6px);
-
+  
   @media screen and (min-width: 768px) {
     display: none;
   }
