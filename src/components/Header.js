@@ -177,7 +177,7 @@ const DropDownContent = styled.div `
   background-color: rgba(0, 0, 0, 1);
   display: flex;
   opacity: ${({isDropped}) => (isDropped ? 1 : 0)};
-  padding: 0 0.2rem;
+  padding: 0.1rem 0.2rem;
   
   flex-direction: column;
   justify-content: center;
@@ -207,7 +207,7 @@ const DropDownLink = styled(Link)`
   cursor: pointer;
   font-size: 1.2rem;
   transition: filter 300ms;
-  margin-top: 1rem;
+  margin: 0.5rem 0;
 
   &:hover {
     filter: brightness(200%);
