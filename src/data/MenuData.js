@@ -28,7 +28,7 @@ export const menuData = [
   },
   { title: "News", link: "/news" },
   { title: "R&D", link: "/rd" },
-  { title: "Client Zone", link: "/rd" },
-  { title: "Matrix Help", link: "/rd" },
+  { title: "Client Zone", link: "https://www.aisquareconnect.com/client_zone/index.php" },
+  { title: "Matrix Help", link: "https://www.aisquareconnect.com/help_guide_2020/Index.html" },
   { title: "Contact", link: "/contact" },
 ]
