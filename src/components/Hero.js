@@ -56,7 +56,7 @@ const HeroContainer = styled.div `
 `
 const HeroBg = styled.div `
     position: absolute;
-    top: 0;
+    top: 80px;
     bottom: 0;
     right: 0;
     left: 0;
