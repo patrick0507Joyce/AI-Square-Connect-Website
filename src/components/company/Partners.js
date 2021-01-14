@@ -44,7 +44,7 @@ const Partners = () => {
     }
 
     return (
-        <FoundersContainer >
+        <FoundersContainer id="company-partner">
             <Heading>
                 Partners
             </Heading>

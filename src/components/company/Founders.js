@@ -62,7 +62,7 @@ const Founders = () => {
     }
 
     return (
-        <FoundersContainer >
+        <FoundersContainer id="company-founder">
             <Heading>
                 Founders
             </Heading>

@@ -11,8 +11,8 @@ const CompanyPage = () => (
     <SEO title="company"/>
     <Hero />
     <Text />
-    <Founders id="company-founder"/>
-    <Partners id="company-partner"/>
+    <Founders />
+    <Partners />
   </Layout>
 )
 
