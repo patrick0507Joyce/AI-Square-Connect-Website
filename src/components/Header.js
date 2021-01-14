@@ -161,7 +161,7 @@ const NavContent = styled.div `
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 20rem;
+  height: 30rem;
   width: 100%;
   position: absolute;
   top: 4rem;
