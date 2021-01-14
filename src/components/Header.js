@@ -136,7 +136,7 @@ const NavMenu = styled.div `
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2rem 0;
+  margin: 1rem 2rem 0 0;
   
   @media screen and (max-width: 768px) {
     display: none;
@@ -193,7 +193,7 @@ const NavMenuWrapper = styled.div `
   display: flex;
   flex-direction: row;
   width: 100%;
-  padding: 0 2rem 0 0;
+  margin: 0 2rem 0 0;
 `
 
 const DropDownLink = styled(Link)`
