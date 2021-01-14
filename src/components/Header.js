@@ -15,7 +15,7 @@ const Header = () => {
       <NavLink to="/">
         <Logo src={Icon} alt="Logo"/>
       </NavLink>
-      <Bars onClick={() => setNavbarOpen(true)} />
+      <Bars onClick={() => setNavbarOpen(!navbarOpen)} />
       <NavMenu onMouseLeave={e => {
                      setMenuIndex(-1);
                  }}>
@@ -163,7 +163,7 @@ const NavContent = styled.div `
   position: absolute;
   top: 4rem;
   right: 0;
-  transform: ${({navbarOpen}) => (navbarOpen ? "translateX(0)" : "translateX(100%)")};
+  opacity:${({navbarOpen}) => (navbarOpen ? 1 : 0 )};
   
   @media screen and (min-width: 768px) {
     display: none;

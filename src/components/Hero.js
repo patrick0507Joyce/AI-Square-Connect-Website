@@ -69,7 +69,7 @@ const VideoBg = styled.video `
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
-    filter: brightness(50%);
+    filter: brightness(75%);
 `
 
 const HeroContent = styled.div `

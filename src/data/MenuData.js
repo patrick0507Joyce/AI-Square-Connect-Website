@@ -28,5 +28,7 @@ export const menuData = [
   },
   { title: "News", link: "/news" },
   { title: "R&D", link: "/rd" },
+  { title: "Client Zone", link: "/rd" },
+  { title: "Matrix Help", link: "/rd" },
   { title: "Contact", link: "/contact" },
 ]
