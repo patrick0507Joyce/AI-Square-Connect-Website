@@ -4,7 +4,7 @@ import ReactReadMoreReadLess from "react-read-more-read-less"
 
 const TextRd = () => {
   return (
-    <TextContainer>
+    <TextContainer id="rd-content">
       <TopLine>Browse Our Papers</TopLine>
       <ContentWrapper>
       <Paper>

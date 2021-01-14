@@ -52,7 +52,7 @@ const Skills = ({heading}) => {
     }
     return (
         <div>
-            <SkillsContainer>
+            <SkillsContainer id="index-strength">
                 <SkillsHeading>{heading}</SkillsHeading>
                 <SkillWrapper>{getSkills(data)}</SkillWrapper>
             </SkillsContainer>

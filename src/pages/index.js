@@ -10,7 +10,7 @@ import Email from "../components/Email"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Hero />
+    <Hero buttonLink="/#index-strength" />
     <Skills heading="Our Strength"/>
     <Testimonials />
     <Stats />

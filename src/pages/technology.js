@@ -8,7 +8,7 @@ import TextTechnology from "../components/technology/TextTechnology"
 const TechnologyPage = () => (
   <Layout>
     <SEO title="company"/>
-    <Hero VideoUrl={VideoUrl}/>
+    <Hero VideoUrl={VideoUrl} buttonLink="/technology/#technology-platform"/>
     <TextTechnology />
   </Layout>
 )

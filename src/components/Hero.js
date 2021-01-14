@@ -3,7 +3,7 @@ import React from 'react'
 import styled from 'styled-components'
 import HomeVideo from '../assets/videos/home-video-1.mp4'
 
-const Hero = ({VideoUrl, title, subtitle}) => {
+const Hero = ({VideoUrl, title, subtitle, buttonLink}) => {
     return (
         <HeroContainer>
             <HeroBg>
@@ -13,8 +13,8 @@ const Hero = ({VideoUrl, title, subtitle}) => {
                 <HeroItems>
                     <HeroH1>{title ? title : "Empower with A.I."}</HeroH1>
                     <HeroP>{subtitle ? subtitle : "Augumented Intelligence for Asset Managers"}</HeroP>
-                    <Button primary="true" big="true" round="true" to="/company">
-                        Try now
+                    <Button primary="true" big="true" round="true" to={buttonLink ? buttonLink : "/company"}>
+                        See More
                     </Button>
                 </HeroItems>
             </HeroContent>
@@ -61,7 +61,7 @@ const HeroBg = styled.div `
     right: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 95%;
     overflow: hidden;
 `
 const VideoBg = styled.video `

@@ -26,7 +26,7 @@ import ContextImg22 from "../../assets/images/newsContext/context-22.png"
 
 const TextNews = () => {
     return (
-        <TextContainer>
+        <TextContainer id="news-content">
             <ContentWrapper>
                 <ColumnOne>
                     <Images src={ContextImg1} />

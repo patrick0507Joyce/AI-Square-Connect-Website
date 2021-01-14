@@ -8,7 +8,7 @@ import TextBenefit from "../components/benefit/TextBenefit"
 const TechnologyPage = () => (
   <Layout>
     <SEO title="company"/>
-    <Hero VideoUrl={VideoUrl}/>
+    <Hero VideoUrl={VideoUrl} buttonLink="/benefit/#benefit-strategies"/>
     <TextBenefit />
   </Layout>
 )

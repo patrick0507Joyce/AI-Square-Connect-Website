@@ -5,7 +5,7 @@ import ContextImg1 from "../../assets/images/contactContext/context-1.png"
 const TextContact = () => {
   return (
     <div>
-      <ContactContainer>
+      <ContactContainer id="contact-content">
       <TopLine>Contact Us</TopLine>
       <Wrapper>
         <ContactBox>

@@ -9,7 +9,7 @@ import Text from "../components/company/Text"
 const CompanyPage = () => (
   <Layout>
     <SEO title="company"/>
-    <Hero />
+    <Hero buttonLink="/company/#company-context"/>
     <Text />
     <Founders />
     <Partners />
