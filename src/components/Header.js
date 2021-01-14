@@ -71,8 +71,11 @@ const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
   z-index: 100;
-  position: relative; 
-  opacity: 0.8;  
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(39, 48, 59, 1);
 `
 
 const NavLink = styled(Link)`
@@ -103,9 +106,9 @@ const NavLink = styled(Link)`
 
 const Logo = styled.img `
 
-  width: 4rem;
-  height: 4rem;
-  margin: 1rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: 3rem 0 0;
 
   @media screen and (max-width: 768px) {
     width: 2.5rem;
@@ -190,7 +193,7 @@ const NavMenuWrapper = styled.div `
   display: flex;
   flex-direction: row;
   width: 100%;
-  padding: 0.5rem 0;
+  padding: 0 2rem 0 0;
 `
 
 const DropDownLink = styled(Link)`
