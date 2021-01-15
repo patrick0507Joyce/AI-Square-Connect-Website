@@ -26,13 +26,13 @@ const Stats = () => {
 export default Stats
 
 const StatsContainer = styled.div `
-    wdith : 100%;
+    width : 100%;
     background : #fff;
     color: #000;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 4rem calc((100vw - 1300px) / 2);
+    padding: 4rem 0;
 `
 
 const Wrapper = styled.div `
@@ -54,7 +54,7 @@ const Wrapper = styled.div `
 const StatsBox = styled.div `
     height: 100%;
     width: 100%;
-    padding: 2rem;
+    padding: 2rem 0;
     transition: 2rem;
 `
 
@@ -62,7 +62,7 @@ const Heading = styled.h1 `
     text-align: start;
     font-size: clamp(1.5rem, 5vw, 2rem);
     margin-bottom: 3rem;
-    padding: 0 2rem;
+    padding: 2rem 0;
 `
 
 const Icon = styled.div `

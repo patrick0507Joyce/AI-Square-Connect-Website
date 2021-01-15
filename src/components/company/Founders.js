@@ -84,7 +84,6 @@ const FoundersContainer = styled.div `
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 1rem;
     padding: 3.5rem 0;
 `
 
@@ -107,7 +106,7 @@ const Wrapper = styled.div `
 const StatsBox = styled.div `
     height: 100%;
     width: 100%;
-    padding: 2rem 1rem;
+    padding: 2rem 0rem;
     transition: 2rem;
 `
 const ImageWrapper = styled.div `
@@ -204,7 +203,7 @@ const Title = styled.div `
 `
 
 const Description = styled.ul `
-    padding: 1rem;
+    padding: 1rem 0;
 
     @media screen and (max-width: 768px) {
         font-size: 1.2rem;

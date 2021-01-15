@@ -42,8 +42,8 @@ const ContactContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 4rem calc((100vw - 1300px) / 2);
-  margin: 0 2rem;
+  padding: 4rem 0;
+  margin: 4rem 0;
 `
 
 const Wrapper = styled.div`
@@ -64,7 +64,7 @@ const Wrapper = styled.div`
 const ContactBox = styled.div`
   height: 100%;
   width: 100%;
-  padding: 2rem 0.5rem;
+  padding: 2rem 0;
   transition: 2rem;
 `
 
@@ -72,12 +72,14 @@ const TopLine = styled.p`
   color: #077bf1;
   font-size: 2rem;
   margin-bottom: 4rem;
+  padding: 0 1rem;
 `
 
 const Heading = styled.h1`
   text-align: start;
   font-size: clamp(1.5rem, 5vw, 2rem);
   margin-bottom: 3rem;
+  padding: 0 1rem;
 `
 
 const Description = styled.div`
@@ -85,13 +87,14 @@ const Description = styled.div`
     margin-bottom: 1rem;
     font-size: 1.5rem;
     font-style: italic;
+    padding: 0 1rem;
   }
 
   p {
     font-size: 1.5rem;
     color: #3b3b3b;
     line-height: 2rem;
-    padding-right: 1rem;
+    padding: 0 1rem;
   }
 
   ul {

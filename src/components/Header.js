@@ -72,7 +72,7 @@ const Nav = styled.nav`
   z-index: 100;
   position: fixed; 
   top: 0;
-  width: calc(100% - 4rem);
+  width: 100%;
   background: rgba(39, 48, 59, 1);
 `
 

@@ -363,7 +363,7 @@ const TextNews = () => {
 export default TextNews
 
 const TextContainer = styled.div`
-  wdith: 100%;
+  width: 100%;
   background: #fff;
   color: #000;
   display: flex;

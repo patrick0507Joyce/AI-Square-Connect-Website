@@ -66,7 +66,6 @@ const FoundersContainer = styled.div `
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 1rem;
     padding: 3rem 0;
 `
 
@@ -120,7 +119,7 @@ const Heading = styled.h1 `
 `
 
 const Description = styled.div `
-    padding: 2rem;
+    padding: 2rem 0;
     font-weight: bold;
     font-size: 1.5rem;
 

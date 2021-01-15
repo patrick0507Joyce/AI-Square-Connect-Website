@@ -1381,7 +1381,7 @@ const TextRd = () => {
 export default TextRd
 
 const TextContainer = styled.div`
-  wdith: 100%;
+  width: 100%;
   background: #fff;
   color: #000;
   display: flex;
@@ -1397,6 +1397,7 @@ const TopLine = styled.p`
   align: center;
 
   @media screen and (max-width: 768px) {
+    align: initial;
     font-size: 2rem;
     margin-bottom: 1.5rem;
   }

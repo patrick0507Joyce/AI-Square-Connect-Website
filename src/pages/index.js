@@ -14,7 +14,6 @@ const IndexPage = () => (
     <Skills heading="Our Strength"/>
     <Testimonials />
     <Stats />
-    <Email />
   </Layout>
 )
 
