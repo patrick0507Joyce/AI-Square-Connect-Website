@@ -72,7 +72,7 @@ const Nav = styled.nav`
   z-index: 100;
   position: fixed; 
   top: 0;
-  width: calc(100% - 4rem);
+  width: calc(100% - 2rem);
   background: rgba(39, 48, 59, 1);
 `
 
@@ -119,7 +119,7 @@ display: none;
 
 
 @media screen and (max-width: 768px) {
-  display: block;
+  display: flex;
   top: 0;
   right: 0;
   margin-top: 0.5rem;
