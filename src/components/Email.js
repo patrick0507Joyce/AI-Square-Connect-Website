@@ -48,7 +48,7 @@ const EmailContainer = styled.div `
     background-size: cover;
     height: 450px;
     width: 100%;
-    padding: 5rem calc((100vw - 1300px) / 2);
+    padding: 5rem 0;
     color: #fff;
     display: flex;
     justify-content: center;
