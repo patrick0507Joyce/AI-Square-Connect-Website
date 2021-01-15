@@ -66,15 +66,13 @@ const Header = () => {
 export default Header
 
 const Nav = styled.nav`
-  background: transparent;
   height: 80px;
   display: flex;
   justify-content: space-between;
   z-index: 100;
   position: fixed; 
   top: 0;
-  left: 0;
-  width: 100%;
+  width: calc(100% - 4rem);
   background: rgba(39, 48, 59, 1);
 `
 
@@ -122,7 +120,6 @@ display: none;
 
 @media screen and (max-width: 768px) {
   display: block;
-  position: absolute;
   top: 0;
   right: 0;
   margin-top: 0.5rem;
