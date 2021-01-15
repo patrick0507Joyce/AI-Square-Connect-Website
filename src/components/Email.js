@@ -80,19 +80,18 @@ const EmailContent = styled.div `
 `
 const FormWrap = styled.div `
     input {
-        padding: 1rem 1.5rem;
+        padding: 1rem 0rem;
         outline: none;
-        width: 340px;
+        width: 100%;
         height: 28px;
         border-radius: 24px;
         border: none;
-        margin-right: 1rem;
     }
 
     @media screen and (max-width: 768px) {
         display: flex;
         flex-direction: column;
-        padding: 0 1rem;
+        padding: 1rem 0;
 
         input {
             margin-bottom: 1rem;
