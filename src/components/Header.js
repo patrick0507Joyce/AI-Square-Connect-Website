@@ -156,7 +156,7 @@ const NavBtn = styled.div `
 const NavContent = styled.div `
   background-color: rgba(0, 0, 0, 1);
 
-  display: flex;
+  display: ${({navbarOpen}) => (navbarOpen ? "flex" : "none" )};
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -168,9 +168,6 @@ const NavContent = styled.div `
   right: 0;
   opacity:${({navbarOpen}) => (navbarOpen ? 1 : 0 )};
   
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
 `
 
 const DropDownContent = styled.div `
@@ -187,6 +184,10 @@ const DropDownContent = styled.div `
 
   li {
     color: white;
+  }
+
+  @media screen and (max-width: 768px) {
+    display: none;
   }
 `
 const NavMenuWrapper = styled.div `
