@@ -70,18 +70,12 @@ const PartnersContainer = styled.div `
 `
 
 const Wrapper = styled.div `
-    display: flex;
-    flex-direction: column;
-    grid-gap: 10px;
-    align-items: center;
-    justify-content: center;
-
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 1rem 2rem;
+    grid-gap: 2rem;
 
     @media screen and (max-width: 768px) {
-        grid-template-columns: 1fr;
-    }
-
-    @media screen and (max-width: 500px) {
         grid-template-columns: 1fr;
     }
 `
