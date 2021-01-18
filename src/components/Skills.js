@@ -66,12 +66,13 @@ const SkillsContainer = styled.div`
     min-height: 100vh;
     padding: 2rem calc((100vw - 1300px) / 2);
     color: #fff;
+    margin: 2rem 0;
 `
 
 const SkillsHeading = styled.div `
-    font-size: clamp(1.2rem, 5vw, 3rem);
+    font-size: clamp(1.2rem, 5vw, 2rem);
     text-align: center;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     color: #000;
 `
 

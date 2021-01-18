@@ -32,7 +32,7 @@ const StatsContainer = styled.div `
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 4rem 0;
+    padding: 2rem 0;
 `
 
 const Wrapper = styled.div `
@@ -40,6 +40,7 @@ const Wrapper = styled.div `
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 4rem;
     align-items: center;
+    padding: 0 0 0 2rem;
 
 
     @media screen and (max-width: 768px) {
@@ -62,7 +63,7 @@ const Heading = styled.h1 `
     text-align: start;
     font-size: clamp(1.5rem, 5vw, 2rem);
     margin-bottom: 3rem;
-    padding: 2rem 0;
+    padding: 0 0 0 1rem;
 `
 
 const Icon = styled.div `

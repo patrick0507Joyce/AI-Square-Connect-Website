@@ -109,12 +109,11 @@ const TestimonialsContainer = styled.div`
 `
 const TopLine = styled.p`
   color: #077bf1;
-  font-size: 2.5rem;
+  font-size: clamp(1.5rem, 1.6vw, 2rem);
   padding-left: 2.5rem;
   
 
   @media screen and (max-width: 768px) {
-    font-size: 2rem;
     padding-left: 2rem;
     margin-bottom: 1.5rem;
   }
@@ -145,14 +144,14 @@ const Testimonial = styled.div`
 
   h3 {
     margin-bottom: 1rem;
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 2vw, 1.8rem);
     font-style: italic;
   }
 
   p {
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 1.8vw, 1.5rem);
     color: #3b3b3b;
-    line-height: 2rem;  
+    line-height: 1.8rem;  
   }
 `
 const ColumnTwo = styled.div`

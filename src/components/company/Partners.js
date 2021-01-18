@@ -44,21 +44,21 @@ const Partners = () => {
     }
 
     return (
-        <FoundersContainer id="company-partner">
+        <PartnersContainer id="company-partner">
             <Heading>
                 Partners
             </Heading>
             <Wrapper>
             {getPartners(data)}
             </Wrapper>
-        </FoundersContainer>
+        </PartnersContainer>
     )
 }
 
 export default Partners
 
 
-const FoundersContainer = styled.div `
+const PartnersContainer = styled.div `
     width : 100%;
     background : #fff;
     color: #000;
@@ -66,7 +66,7 @@ const FoundersContainer = styled.div `
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 3rem 0;
+    padding: 0 0 1rem 0;
 `
 
 const Wrapper = styled.div `
@@ -105,21 +105,12 @@ const PartnerImg = styled(Img) `
 
 const Heading = styled.h1 `
     text-align: start;
-    font-size: clamp(1.5rem, 5vw, 2rem);
-    font-size: 4rem;
+    font-size: clamp(1.5rem, 3vw, 3rem);
     margin-bottom: 3rem;
-
-    @media screen and (max-width: 768px) {
-        font-size: 2.5rem;
-    }
-
-    @media screen and (max-width: 500px) {
-        font-size: 1.5rem;
-    }
 `
 
 const Description = styled.div `
-    padding: 2rem 0;
+    padding: 2rem;
     font-weight: bold;
     font-size: 1.5rem;
 

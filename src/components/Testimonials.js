@@ -61,7 +61,7 @@ const Testimonials = () => {
           <Testimonial>
             <FaRegLightbulb
               css={`
-                color: #f9b19b;
+                color: #0373FC;
                 font-size: 2rem;
                 margin-bottom: 1rem;
               `}

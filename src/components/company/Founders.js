@@ -161,24 +161,15 @@ const FounderImg = styled(Img) `
 
 `
 
-const Heading = styled.h1 `
+const Heading = styled.h2 `
     text-align: start;
-    font-size: clamp(1.5rem, 5vw, 2rem);
-    font-size: 4rem;
+    font-size: clamp(1.5rem, 3vw, 3rem);
     margin-bottom: 3rem;
-
-    @media screen and (max-width: 768px) {
-        font-size: 2rem;
-    }
-
-    @media screen and (max-width: 500px) {
-        font-size: 1.5rem;
-    }
 `
 
 const Name = styled.div `
     font-size: clamp(1rem, 2.5vw, 1.5rem);
-    margin: 0.2rem 0.5rem 0;
+    padding: 0.2rem 0 0 1.5rem;
 
     @media screen and (max-width: 768px) {
         font-size: 1.5rem;
@@ -190,8 +181,7 @@ const Name = styled.div `
 `
 const Title = styled.div `
     font-size: clamp(0.8rem, 2vw, 1.2rem);
-    margin-bottom: 0.5rem;
-    margin-left: 0.5rem;
+    margin: 0.2rem 0 0 1.5rem;
 
     @media screen and (max-width: 768px) {
         font-size: 1.2rem;
@@ -203,7 +193,7 @@ const Title = styled.div `
 `
 
 const Description = styled.ul `
-    padding: 1rem 0;
+    padding: 0.5rem 2rem 2rem 2rem;
 
     @media screen and (max-width: 768px) {
         font-size: 1.2rem;
