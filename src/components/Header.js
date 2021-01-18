@@ -38,8 +38,12 @@ const Header = () => {
           {menuData.map((item, index) =>(
                 item.subMenus ? 
               (<DropDownContent isDropped={index== menuIndex ? true : false}>
-                {item.subMenus.map((subitem, index) => (
-                  <DropDownLink to={subitem.subLink} key={index}>{subitem.title}</DropDownLink>
+                {item.subMenus.map((subitem, subIndex) => (
+                  <DropDownLink 
+                  to={subitem.subLink} 
+                  key={subIndex}
+                  isDropped={index== menuIndex ? true : false}
+                  >{subitem.title} </DropDownLink>
                 ))}
               </DropDownContent>) 
               : 
@@ -165,6 +169,7 @@ const NavContent = styled.div `
   right: 0;
   opacity:${({navbarOpen}) => (navbarOpen ? 1 : 0 )};
   
+  
 `
 
 const DropDownContent = styled.div `
@@ -206,6 +211,8 @@ const DropDownLink = styled(Link)`
   font-size: 1.2rem;
   transition: filter 300ms;
   margin: 0.5rem 0;
+  
+  pointer-events: ${({isDropped}) => (isDropped ? "default" : "none")};
 
   &:hover {
     filter: brightness(200%);

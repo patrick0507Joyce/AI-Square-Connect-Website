@@ -34,7 +34,7 @@ const TextNews = () => {
                 <ColumnTwo>
                     <News>
                         <h3>October 2020, Ai Square Connect will present work as speaker at the workshop on Bridging the Gap Between AI Planning and Reinforcement Learning (PRL) of the International Conference on Automated Planning and Scheduling (ICAPS)</h3>
-                        <p>Ai Square Connect's data scientist, David Saltiel, will attend the workshop on Bridging the Gap Between AI Planning and Reinforcement Learning (PRL) as speaker on work about bridging the gap between Markowitz planning and deep reinforcement learning.</p>
+                        <p>Ai Sqxuare Connect's data scientist, David Saltiel, will attend the workshop on Bridging the Gap Between AI Planning and Reinforcement Learning (PRL) as speaker on work about bridging the gap between Markowitz planning and deep reinforcement learning.</p>
                     </News>
                 </ColumnTwo>
             </ContentWrapper>
