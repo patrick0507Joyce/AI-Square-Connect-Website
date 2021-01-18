@@ -146,7 +146,7 @@ const TestimonialsContainer = styled.div`
 `
 const TopLine = styled.p`
   color: #077bf1;
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 3vw, 3rem);
   padding-left: 2rem;
   margin-bottom: 0.75rem;
 `
@@ -155,7 +155,7 @@ const Description = styled.div`
   text-align: start;
   padding-left: 2rem;
   margin-bottom: 2rem;
-  font-size: clamp(1.5rem, 5vw, 2rem);
+  font-size: clamp(1.2rem, 2.5vw, 3rem);
   font-weight: bold;
 `
 const ContentWrapper = styled.div`
@@ -172,7 +172,7 @@ const ColumnOne = styled.div`
     margin: auto;
 `
 const Testimonial = styled.div`
-  padding-right: 2rem;
+  padding-right: 0.5rem;
 
   h3 {
     margin-bottom: 1rem;
@@ -181,23 +181,20 @@ const Testimonial = styled.div`
   }
 
   p {
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 1.8vw, 1.5rem);
     color: #3b3b3b;
-    line-height: 2rem;  
+    line-height: 1.8rem;   
+    padding-left: 1rem;
   }
 
   ul {
-    padding: 0 1.5rem;
-    
-    @media screen and (max-width: 768px) {
-        display: none;
-    }
+    padding:1.5rem 0 1rem 2rem;
   }
 
   li {
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 1.8vw, 1.5rem);
     color: #3b3b3b;
-    line-height: 2rem; 
+    line-height: 1.5rem;   
   }
 `
 const ColumnTwo = styled.div`
