@@ -6,29 +6,37 @@ const TextContact = () => {
   return (
     <div>
       <ContactContainer id="contact-content">
-      <TopLine>Contact Us</TopLine>
-      <Wrapper>
-        <ContactBox>
-          <Heading>Email</Heading>
-          <Description>
-            <p>
-              contact@aisquareconnect.com
-            </p>
-          </Description>
-        </ContactBox>
-        <ContactBox>
-          <Heading>Address</Heading>
-          <Description>
-            <p>
-              35 Boulevard d'Inkermann 92200 Neuilly sur Seine<br />
-              Métro : Ligne 1, Sablons
-              Parking public : 31 Boulevard d'Inkermann, 92200 Neuilly sur Seine
-            </p>
-          </Description>
-        </ContactBox>
-      </Wrapper>
-      <Images src={ContextImg1} />
-    </ContactContainer>
+        <TopLine>Contact Us</TopLine>
+        <Wrapper>
+          <ContactBox>
+            <Heading>Email</Heading>
+            <Description>
+              <p>contact@aisquareconnect.com</p>
+            </Description>
+          </ContactBox>
+          <ContactBox>
+            <Heading>Address</Heading>
+            <Description>
+              <p>
+                35 Boulevard d'Inkermann 92200 Neuilly sur Seine
+                <br />
+                Métro : Ligne 1, Sablons Parking public : 31 Boulevard
+                d'Inkermann, 92200 Neuilly sur Seine
+              </p>
+            </Description>
+          </ContactBox>
+        </Wrapper>
+      </ContactContainer>
+      <ExternalLinkContainer>
+        <ExternalLink
+            href={
+              "https://www.google.fr/maps/search/35+boulevard+Inkermann+92200+NeuillySurSeine?hl=fr>"
+            }
+            target="_blank"
+          >
+            <Images src={ContextImg1} />
+          </ExternalLink>
+      </ExternalLinkContainer>
     </div>
   )
 }
@@ -42,8 +50,11 @@ const ContactContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 4rem 0;
   margin: 4rem 0;
+
+  @media screen and (max-width: 768px) {
+    margin: 2rem 0;
+  }
 `
 
 const Wrapper = styled.div`
@@ -114,11 +125,21 @@ const Description = styled.div`
 
 const Images = styled.img`
   border-radius: 5px;
-  width: 1000px;
-  margin: auto;
+  width: 120vh;
+  margin: 0 auto;
 
   @media screen and (max-width: 768px) {
-    margin: 2rem 0;
-    width: 100%;
-  }   
+    width: 90%;
+  }
+`
+
+const ExternalLink = styled.a`
+  
+  text-decorations: none;
+  text-align:center
+  color: inherit;
+`
+const ExternalLinkContainer = styled.div `
+  width:100%;
+  text-align:center;
 `

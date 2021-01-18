@@ -85,6 +85,10 @@ const FoundersContainer = styled.div `
     justify-content: center;
     align-items: center;
     padding: 3.5rem 0;
+
+    @media screen and (max-width: 768px) {
+        padding: 0.5rem 0;
+    }
 `
 
 const Wrapper = styled.div `

@@ -2,12 +2,21 @@ import { Button } from '../components/Button'
 import React from 'react'
 import styled from 'styled-components'
 import HomeVideo from '../assets/videos/home-video-1.mp4'
+import HomePoster from "../assets/videos/videoPosters/home-poster.jpg"
 
-const Hero = ({VideoUrl, title, subtitle, buttonLink}) => {
+
+const Hero = ({poster, VideoUrl, title, subtitle, buttonLink}) => {
     return (
         <HeroContainer>
             <HeroBg>
-                <VideoBg src={VideoUrl ? VideoUrl : HomeVideo} type="video/mp4" autoPlay loop muted playsInline />
+                <VideoBg 
+                src={VideoUrl ? VideoUrl : HomeVideo} 
+                poster={poster ? poster : HomePoster}
+                type="video/mp4" 
+                autoPlay 
+                loop 
+                muted 
+                playsInline />
             </HeroBg>
             <HeroContent>
                 <HeroItems>

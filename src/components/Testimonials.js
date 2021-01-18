@@ -100,7 +100,7 @@ const TopLine = styled.p`
 const Description = styled.div`
   text-align: start;
   padding-left: 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
   font-size: clamp(1.5rem, 5vw, 2rem);
   font-weight: bold;
 `

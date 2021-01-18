@@ -32,7 +32,12 @@ const StatsContainer = styled.div `
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2rem 0;
+    margin: 5rem 0;
+
+    @media screen and (max-width: 768px) {
+        margin: 3rem 0;
+    }
+
 `
 
 const Wrapper = styled.div `
