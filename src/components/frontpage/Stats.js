@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { StatsData } from "../data/StatsData";
+import { StatsData } from "../../data/StatsData";
 
 const Stats = () => {
     return (

@@ -6,7 +6,7 @@ import ContextImg3 from "../../assets/images/companyContext/context-3.png"
 import ReactReadMoreReadLess from "react-read-more-read-less";
 
 
-const Text = () => {
+const TextCompany = () => {
   return (
     <TextContainer>
         <TestimonialsContainer id="company-context">
@@ -93,7 +93,7 @@ const Text = () => {
   )
 }
 
-export default Text
+export default TextCompany
 
 const TextContainer = styled.div `
     margin: 2rem 0;

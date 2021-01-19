@@ -1388,7 +1388,7 @@ const TextContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 4rem calc((100vw - 1300px) / 2);
+  padding: 4rem 0;
 `
 
 const TopLine = styled.p`

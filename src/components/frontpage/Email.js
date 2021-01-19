@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import EmailBg from "../assets/contact/email.jpg"
-import { Button } from "../components/Button"
+import { Button } from "../Button"
 
 const Email = () => {
   return (
