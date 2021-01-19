@@ -176,19 +176,19 @@ const TextNews = () => {
         <ColumnTwo>
           <News>
             <h3>
-              May 2020: Ai Square Connect presents work as speaker at the &nbsp;
+              May 2020: Ai Square Connect presents work as speaker at the
+              Genetic and Evolutionary Computation Conference (GECCO)
+            </h3>
+            <p>
+              Ai Square Connect's data scientist, David Saltiel, attends the
+              &nbsp;
               <ExternalLink
                 href={"https://gecco-2020.sigevo.org/index.html/HomePage"}
                 target="_blank"
               >
-                Genetic and Evolutionary Computation Conference (GECCO)
+                Genetic and Evolutionary Computation Conference
               </ExternalLink>
-              &nbsp;
-            </h3>
-            <p>
-              Ai Square Connect's data scientist, David Saltiel, attends the
-              Genetic and Evolutionary Computation Conference as speaker on work
-              about Bayesian version of CMA-ES.
+              &nbsp; as speaker on work about Bayesian version of CMA-ES.
             </p>
           </News>
         </ColumnTwo>
