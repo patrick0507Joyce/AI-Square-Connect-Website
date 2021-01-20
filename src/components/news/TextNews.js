@@ -39,7 +39,7 @@ const TextNews = () => {
               Automated Planning and Scheduling (ICAPS)
             </h3>
             <p>
-              Ai Sqxuare Connect's data scientist, David Saltiel, will attend
+              Ai Square Connect's data scientist, David Saltiel, will attend
               the &nbsp;
               <ExternalLink
                 href={
@@ -50,7 +50,7 @@ const TextNews = () => {
                 workshop on Bridging the Gap Between AI Planning and
                 Reinforcement Learning (PRL)
               </ExternalLink>
-              &nbsp; as speaker on work about bridging the gap between Markowitz
+              &nbsp; as speaker on work about bridging <b>the gap</b> between Markowitz
               planning and deep reinforcement learning.
             </p>
           </News>

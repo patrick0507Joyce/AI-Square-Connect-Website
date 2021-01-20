@@ -63,6 +63,7 @@ const TextBenefit = () => {
 
 export default TextBenefit
 
+
 const BenefitsContainer = styled.div`
   width: 100%;
   background: #fff;
