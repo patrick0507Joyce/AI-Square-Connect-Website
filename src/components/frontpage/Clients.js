@@ -65,9 +65,9 @@ const GridBox = styled.div`
 
 const Image = styled.img`
   width: 30%;
+  margin: auto;
 
   @media screen and (max-width: 768px) {
-    margin: 2rem 0;
-    width: 100%;
+    width: 80%;
   }
 `

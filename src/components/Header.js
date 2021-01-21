@@ -85,7 +85,7 @@ const NavLink = styled(Link)`
   filter: brightness(90%);
   display: flex;
   text-decoration: none;
-  padding: 0.2rem 1rem;
+  padding: 1rem 1rem;
   cursor: pointer;
   font-size: 1.2rem;
   transition: filter 300ms;

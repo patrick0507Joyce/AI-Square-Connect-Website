@@ -62,15 +62,19 @@ const GridBox = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 `
 
 const Image = styled.img`
   width: 30%;
-  border-radius: 100px;
+  border-radius: 50%;
 
   @media screen and (max-width: 768px) {
     margin: 2rem 0;
-    width: 100%;
+    width: 80%;
   }
 `
 
@@ -78,6 +82,7 @@ const Name = styled.div`
   font-size: clamp(1rem, 2.5vw, 1.5rem);
   font-style: bold;
   padding: 0.2rem 0 0 1.5rem;
+  align: center;
 
   @media screen and (max-width: 768px) {
     font-size: 1.5rem;
@@ -89,8 +94,9 @@ const Name = styled.div`
 `
 const Title = styled.p`
   font-size: clamp(0.8rem, 2vw, 1.2rem);
-  margin: 0.2rem 0 0 1.5rem;
   color: #696969;
+  text-align: center;
+  padding: auto;
 
   @media screen and (max-width: 768px) {
     font-size: 1.2rem;
