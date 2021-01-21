@@ -1,10 +1,9 @@
 import React from "react"
 import styled from "styled-components"
 
-
-import {GrPersonalComputer, GrDocumentPerformance } from 'react-icons/gr'
-import {BsClipboardData} from 'react-icons/bs'
-import { RiExchangeFundsLine, RiMoneyEuroBoxLine } from 'react-icons/ri'
+import { GrPersonalComputer, GrDocumentPerformance } from "react-icons/gr"
+import { BsClipboardData } from "react-icons/bs"
+import { RiExchangeFundsLine, RiMoneyEuroBoxLine } from "react-icons/ri"
 
 const Features = () => {
   return (
@@ -107,8 +106,13 @@ const FeatureIcon = styled.div`
   border-radius: 50%;
 
   @media screen and (max-width: 768px) {
-    display: none;
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 0.5 1rem;
+    position: absolute;
+    left: 0;
   }
+
 `
 
 const Wrapper = styled.div`
@@ -129,8 +133,6 @@ const Wrapper = styled.div`
 const FeatureBox = styled.div`
   height: 100%;
   width: 100%;
-  padding: 2rem 0;
-  transition: 2rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -139,9 +141,16 @@ const FeatureBox = styled.div`
 
 const Heading = styled.h1`
   text-align: start;
-  font-size: clamp(1.5rem, 5vw, 2rem);
+  font-size: clamp(1.2rem, 5vw, 2rem);
   margin-bottom: 3rem;
-  padding: 0 0.5rem;
+  padding: 1rem 0;
+
+  @media screen and (max-width: 768px) {
+      padding-left: 9rem;
+      text-align: center;
+    }
+  
+
 `
 
 const Description = styled.div`
@@ -150,6 +159,10 @@ const Description = styled.div`
     font-size: 1.5rem;
     font-style: italic;
     padding: 0 1rem;
+
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
   }
 
   p {
@@ -157,6 +170,10 @@ const Description = styled.div`
     color: #3b3b3b;
     line-height: 2rem;
     padding: 0 1rem;
+
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
   }
 
   ul {
