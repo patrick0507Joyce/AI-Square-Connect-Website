@@ -48,13 +48,13 @@ const TextContainer = styled.div`
 
 const TestimonialsContainer = styled.div`
   width: 100%;
-  background: #fcfcfc;
+  background: rgb(70, 52, 78, 0.8);
   color: #000;
   padding: 2rem 0;
   height: 100%;
 `
 const TopLine = styled.p`
-  color: #077bf1;
+  color: white;
   font-size: clamp(1.5rem, 1.6vw, 2rem);
   padding-left: 2.5rem;
   margin-bottom: 1.5rem;
@@ -110,7 +110,7 @@ const Testimonial = styled.div`
 
   p {
     font-size: clamp(1rem, 1.8vw, 1.5rem);
-    color: #696969;
+    color: white;
     line-height: 1.3;
   }
 `

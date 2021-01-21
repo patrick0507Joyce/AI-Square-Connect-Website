@@ -89,7 +89,7 @@ export default Features
 
 const FeaturesContainer = styled.div`
   width: 100%;
-  background-color: #fafafb;
+  background-color: rgb(134, 194, 50, 0.8);
   color: #000;
   display: flex;
   align-items: center;
