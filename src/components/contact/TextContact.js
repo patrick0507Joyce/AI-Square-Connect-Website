@@ -11,7 +11,7 @@ const TextContact = () => {
           <ContactBox>
             <Heading>Email</Heading>
             <Description>
-              <p>contact@aisquareconnect.com</p>
+              <p>contact@aiforalpha.com</p>
             </Description>
           </ContactBox>
           <ContactBox>

@@ -3,7 +3,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Hero from "../components/Hero"
 import Founders from "../components/company/Founders"
-import Partners from "../components/company/Partners"
 import TextCompany from "../components/company/Text"
 
 const CompanyPage = () => (
@@ -12,7 +11,6 @@ const CompanyPage = () => (
     <Hero buttonLink="/company/#company-context"/>
     <TextCompany />
     <Founders />
-    <Partners />
   </Layout>
 )
 

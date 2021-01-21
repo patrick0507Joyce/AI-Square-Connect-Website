@@ -1,27 +1,13 @@
 import React from "react"
 import styled from "styled-components"
 import ContextImg1 from "../../assets/images/newsContext/context-1.png"
-import ContextImg2 from "../../assets/images/newsContext/context-2.png"
 import ContextImg3 from "../../assets/images/newsContext/context-3.png"
 import ContextImg4 from "../../assets/images/newsContext/context-4.png"
 import ContextImg5 from "../../assets/images/newsContext/context-5.png"
 import ContextImg6 from "../../assets/images/newsContext/context-6.png"
 import ContextImg7 from "../../assets/images/newsContext/context-7.png"
-import ContextImg8 from "../../assets/images/newsContext/context-8.png"
-import ContextImg9 from "../../assets/images/newsContext/context-9.png"
-import ContextImg10 from "../../assets/images/newsContext/context-10.png"
-import ContextImg11 from "../../assets/images/newsContext/context-11.png"
-import ContextImg12 from "../../assets/images/newsContext/context-12.png"
 import ContextImg13 from "../../assets/images/newsContext/context-13.png"
-import ContextImg14 from "../../assets/images/newsContext/context-14.png"
-import ContextImg15 from "../../assets/images/newsContext/context-15.png"
-import ContextImg16 from "../../assets/images/newsContext/context-16.png"
-import ContextImg17 from "../../assets/images/newsContext/context-17.png"
-import ContextImg18 from "../../assets/images/newsContext/context-18.png"
-import ContextImg19 from "../../assets/images/newsContext/context-19.png"
-import ContextImg20 from "../../assets/images/newsContext/context-20.png"
-import ContextImg21 from "../../assets/images/newsContext/context-21.png"
-import ContextImg22 from "../../assets/images/newsContext/context-22.png"
+
 
 const TextNews = () => {
   return (
@@ -33,54 +19,35 @@ const TextNews = () => {
         <ColumnTwo>
           <News>
             <h3>
-              October 2020, Ai Square Connect will present work as speaker at
-              the workshop on Bridging the Gap Between AI Planning and
-              Reinforcement Learning (PRL) of the International Conference on
-              Automated Planning and Scheduling (ICAPS)
+              October 2020: International Conference on Automated Planning and
+              Scheduling (ICAPS)
             </h3>
             <p>
-              Ai Square Connect's data scientist, David Saltiel, will attend
-              the &nbsp;
-              <ExternalLink
-                href={
-                  "https://icaps20subpages.icaps-conference.org/workshops/prl/"
-                }
-                target="_blank"
-              >
-                workshop on Bridging the Gap Between AI Planning and
-                Reinforcement Learning (PRL)
-              </ExternalLink>
-              &nbsp; as speaker on work about bridging <b>the gap</b> between Markowitz
-              planning and deep reinforcement learning.
+              In collaboration with Société Générale, David Saltiel attended the
+              workshop as speaker about{" "}
+              <b>
+                bridging the gap between Markowitz planning and deep
+                reinforcement learning
+              </b>
+              .
             </p>
           </News>
         </ColumnTwo>
       </ContentWrapper>
       <ContentWrapper>
         <ColumnOne>
-          <Images src={ContextImg2} />
+          <Images src={ContextImg1} />
         </ColumnOne>
         <ColumnTwo>
           <News>
             <h3>
-              October 2020, Ai Square Connect will present work as speaker at
-              the workshop on Planning for Financial Services (FinPlan) at the
-              International Conference on Automated Planning and Scheduling
-              (ICAPS)
+              October 2020: International Conference on Automated Planning and
+              Scheduling (ICAPS)
             </h3>
             <p>
-              Ai Square Connect's data scientist, David Saltiel, will attend the
-              &nbsp;
-              <ExternalLink
-                href={
-                  "https://icaps20subpages.icaps-conference.org/workshops/finplan/"
-                }
-                target="_blank"
-              >
-                workshop on Planning for Financial Services (FinPlan)
-              </ExternalLink>
-              &nbsp; as speaker on work about timing hedges with Deep
-              Reinforcement Learning.
+              In collaboration with Société Générale, David Saltiel attended the
+              workshop as speaker on{" "}
+              <b>Timing Hedges with Deep Reinforcement Learning</b>.
             </p>
           </News>
         </ColumnTwo>
@@ -92,19 +59,10 @@ const TextNews = () => {
         <ColumnTwo>
           <News>
             <h3>
-              October 2020, Ai Square Connect will present work as speaker at
-              the 28th European Symposium on Artificial Neural Networks,
-              Computational Intelligence and Machine Learning (ESANN)
+              October 2020: European Symposium on Artificial Neural Networks (ESANN)
             </h3>
             <p>
-              Ai Square Connect's data scientist, David Saltiel, will attend the
-              &nbsp;
-              <ExternalLink href={"https://www.esann.org/"} target="_blank">
-                European Symposium on Artificial Neural Networks
-              </ExternalLink>
-              &nbsp; , Computational Intelligence and Machine Learning as
-              speaker on work about similarities between policy gradient methods
-              in reinforcement and supervised learning.
+              David Saltiel spoke on work about <b>similarities between policy gradient methods in reinforcement and supervised learning</b>.
             </p>
           </News>
         </ColumnTwo>
@@ -116,24 +74,10 @@ const TextNews = () => {
         <ColumnTwo>
           <News>
             <h3>
-              September 2020, Ai Square Connect presents work as speaker at the
-              5th workshop on MIning DAta for financial applicationS (MIDAS) at
-              the The European Conference on Machine Learning and Principles and
-              Practice of Knowledge Discovery in Databases (ECML-PKDD)
+            September 2020, European Conference on Machine Learning (ECML-PKDD)
             </h3>
             <p>
-              Ai Square Connect's data scientist, David Saltiel, attends the 5th
-              Workshop on &nbsp;
-              <ExternalLink
-                href={
-                  "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=102470&copyownerid=88467"
-                }
-                target="_blank"
-              >
-                MIning DAta for financial applicationS
-              </ExternalLink>
-              &nbsp; as speaker on work about trade Selection with Supervised
-              Learning and OCA.
+            David Saltiel attended the workshop on mining data for financial applications as speaker on <b>Trade Selection with Supervised Learning and OCA</b>.
             </p>
           </News>
         </ColumnTwo>
@@ -145,26 +89,12 @@ const TextNews = () => {
         <ColumnTwo>
           <News>
             <h3>
-              September 2020, Ai Square Connect presents work as speaker at the
-              The European Conference on Machine Learning and Principles and
-              Practice of Knowledge Discovery in Databases (ECML-PKDD)
+            September 2020, European Conference on Machine Learning (ECML-PKDD)
             </h3>
             <p>
-              We are proud to present our joined word with &nbsp;
-              <ExternalLink
-                href={"https://www.homacapital.fr/en/"}
-                target="_blank"
-              >
-                Homa Capital
-              </ExternalLink>
-              &nbsp; using deep reinforcement learning (DRL) for portfolio
-              allocation at &nbsp;
-              <ExternalLink href={"https://ecmlpkdd2020.net/"} target="_blank">
-                European Conference on Machine Learning and Principles and
-                Practice of Knowledge Discovery in Databases (ECML-PKDD)
-              </ExternalLink>
-              &nbsp; , the premier European machine learning and data mining
-              conference.
+            Ai For Alpha presented our joined work with Homa Capital on 
+            <b>using deep reinforcement learning (DRL) for portfolio allocation</b>
+             at the premier European machine learning and data mining conference
             </p>
           </News>
         </ColumnTwo>
@@ -176,19 +106,11 @@ const TextNews = () => {
         <ColumnTwo>
           <News>
             <h3>
-              May 2020: Ai Square Connect presents work as speaker at the
-              Genetic and Evolutionary Computation Conference (GECCO)
+              May 2020: Genetic and Evolutionary Computation Conference (GECCO)
             </h3>
             <p>
-              Ai Square Connect's data scientist, David Saltiel, attends the
-              &nbsp;
-              <ExternalLink
-                href={"https://gecco-2020.sigevo.org/index.html/HomePage"}
-                target="_blank"
-              >
-                Genetic and Evolutionary Computation Conference
-              </ExternalLink>
-              &nbsp; as speaker on work about Bayesian version of CMA-ES.
+            Ai For Alpha's data scientist, David Saltiel, attends the 
+            Genetic and Evolutionary Computation Conference (GECCO) as speaker on work about <b>Bayesian version of CMA-ES.</b>
             </p>
           </News>
         </ColumnTwo>
@@ -212,321 +134,21 @@ const TextNews = () => {
       </ContentWrapper>
       <ContentWrapper>
         <ColumnOne>
-          <Images src={ContextImg8} />
-        </ColumnOne>
-        <ColumnTwo>
-          <News>
-            <h3>
-              March 2020: AlphaWeek publishes an article on Ai For Capital
-              program
-            </h3>
-            <p>
-              "Artificial Intelligence Generating Alpha For AI Square Connect"
-              See the article &nbsp;
-              <ExternalLink
-                href={
-                  "https://www.alpha-week.com/artificial-intelligence-generating-alpha-ai-square-connect"
-                }
-                target="_blank"
-              >
-                here
-              </ExternalLink>
-              .
-            </p>
-          </News>
-        </ColumnTwo>
-      </ContentWrapper>
-      <ContentWrapper>
-        <ColumnOne>
-          <Images
-            src={ContextImg9}
-            css={`
-              width: 250px;
-              height: 250px;
-            `}
-          />
-        </ColumnOne>
-        <ColumnTwo>
-          <News>
-            <h3>
-              February 2020, Ai for Capital receives an award from BarclayHedge
-            </h3>
-            <p>
-              "Rcube (AI for Capital) Net Return For Feb 2020. Secto:
-              Financial/Metals Traders Managing Less Than $10M" For more
-              informatio, please click &nbsp;
-              <ExternalLink
-                href={"https://rcube.com/ai-for-capital/"}
-                target="_blank"
-              >
-                here
-              </ExternalLink>
-              .
-            </p>
-          </News>
-        </ColumnTwo>
-      </ContentWrapper>
-      <ContentWrapper>
-        <ColumnOne>
-          <Images src={ContextImg10} />
-        </ColumnOne>
-        <ColumnTwo>
-          <News>
-            <h3>
-              October 2019, HFM publishes an article on Ai For Capital program
-              on CTA Intelligence journal
-            </h3>
-            <p>
-              "Paris quant unveils medium-frequency strategy"
-              <br />
-              See the article &nbsp;
-              <ExternalLink
-                href={
-                  "https://www.aisquareconnect.com/build/articles/CTA_Intelligence.pdf"
-                }
-                target="_blank"
-              >
-                here
-              </ExternalLink>
-              .
-            </p>
-          </News>
-        </ColumnTwo>
-      </ContentWrapper>
-      <ContentWrapper>
-        <ColumnOne>
-          <Images src={ContextImg11} />
-        </ColumnOne>
-        <ColumnTwo>
-          <News>
-            <h3>
-              August 2019, RCube AM integrates Ai For Capital program within its
-              investment capabilities
-            </h3>
-            <p>
-              Ai for Capital is a medium-term frequency program based on
-              statistical analysis and machine learning managed by RCube AM.
-            </p>
-          </News>
-        </ColumnTwo>
-      </ContentWrapper>
-      <ContentWrapper>
-        <ColumnOne>
-          <Images src={ContextImg12} />
-        </ColumnOne>
-        <ColumnTwo>
-          <News>
-            <h3>
-              June 2019, Ai Square Connect works with RCube AM to propose the
-              strategies to external investors
-            </h3>
-            <p>
-              RCube AM is now using the systematic trading platform developed by
-              Ai Square Connect.
-            </p>
-          </News>
-        </ColumnTwo>
-      </ContentWrapper>
-      <ContentWrapper>
-        <ColumnOne>
           <Images src={ContextImg13} />
         </ColumnOne>
         <ColumnTwo>
           <News>
             <h3>
-              March 2019, Ai Square Connect presented work as speaker at the
-              12th Financial Risks International Forum
+              March 2019: 12th Financial Risks International Forum
             </h3>
             <p>
-              Ai Square Connect's data scientist, David Saltiel, attended the
-              &nbsp;
-              <ExternalLink
-                href={"https://www.risks-forum.org/"}
-                target="_blank"
-              >
-                12th Financial Risks International Forum
-              </ExternalLink>
-              &nbsp; as speaker on work about Trade Selection with Supervised
-              Learning and OCA.
+            David Saltiel, attended the 12th Financial Risks International Forum as speaker on work about <b>Trade Selection with Supervised Learning and OCA</b>.
             </p>
           </News>
         </ColumnTwo>
       </ContentWrapper>
-      <ContentWrapper>
-        <ColumnOne>
-          <Images src={ContextImg14} />
-        </ColumnOne>
-        <ColumnTwo>
-          <News>
-            <h3>
-              November 2018, Ai Square Connect obtains the status of Young
-              Innovative Company by the Ministry for Higher Education and
-              Research
-            </h3>
-          </News>
-        </ColumnTwo>
-      </ContentWrapper>
-      <ContentWrapper>
-        <ColumnOne>
-          <Images src={ContextImg15} />
-        </ColumnOne>
-        <ColumnTwo>
-          <News>
-            <h3>
-              October 2018, Ai Square Connect to attend 2018 European Workshop
-              on Reinforcement Learning
-            </h3>
-            <p>
-              Ai Square Connect's chief data scientist, Eric Benhamou, attended
-              the
-              <ExternalLink
-                href={"https://ewrl.wordpress.com/past-ewrl/ewrl14-2018/"}
-                target="_blank"
-              >
-                2018 European Workshop on Reinforcement Learning.
-              </ExternalLink>
-              &nbsp;
-            </p>
-          </News>
-        </ColumnTwo>
-      </ContentWrapper>
-      <ContentWrapper>
-        <ColumnOne>
-          <Images src={ContextImg16} />
-        </ColumnOne>
-        <ColumnTwo>
-          <News>
-            <h3>October 2018, David Saltiel to join Ai Square Connect</h3>
-            <p>
-              Ai Square Connect is proud to announce that David Saltiel have
-              joined Ai Square Connect. An alumnus from Université Paris
-              Dauphine, with two MSc, one in Artificial Intelligence and one in
-              Finance and Actuaries, David has strong knowledge in computing,
-              finance and statistics. He is also teaching computer science and
-              mathematics at Université Paris Dauphine. He will work closely
-              with Eric Benhamou on reinforcement learning applied to finance.
-            </p>
-          </News>
-        </ColumnTwo>
-      </ContentWrapper>
-      <ContentWrapper>
-        <ColumnOne>
-          <Images src={ContextImg17} />
-        </ColumnOne>
-        <ColumnTwo>
-          <News>
-            <h3>August 2018, Nicolas Paris passed CMT level 3 exam</h3>
-            <p>
-              Ai Square Connect's founder, Nicolas Paris, has passed CMT level 3
-              exam. This comes as a recognition of his strong expertise in
-              technical analysis leveraging more than 10 years of experience in
-              the field.
-            </p>
-          </News>
-        </ColumnTwo>
-      </ContentWrapper>
-      <ContentWrapper>
-        <ColumnOne>
-          <Images src={ContextImg18} />
-        </ColumnOne>
-        <ColumnTwo>
-          <News>
-            <h3>
-              July 2018, Ai Square Connect presented work at INRIA Artificial
-              Intelligence 2018 Summer School
-            </h3>
-            <p>
-              Ai Square Connect's chief data scientist, Eric Benhamou, presented
-              some work on reinforcement learning at the &nbsp;
-              <ExternalLink
-                href={"https://project.inria.fr/paiss/"}
-                target="_blank"
-              >
-                INRIA Artificial Intelligence 2018 Summer School
-              </ExternalLink>
-              . This was presented around the cocktail during the poster
-              session.
-            </p>
-          </News>
-        </ColumnTwo>
-      </ContentWrapper>
-      <ContentWrapper>
-        <ColumnOne>
-          <Images src={ContextImg19} />
-        </ColumnOne>
-        <ColumnTwo>
-          <News>
-            <h3>
-              June 2018, Ai Square Connect presented work at the 2018
-              Polytechnique Data Science Summer School
-            </h3>
-            <p>
-              Ai Square Connect's chief data scientist, Eric Benhamou, presented
-              some work on reinforcement learning at the &nbsp;
-              <ExternalLink
-                href={"http://www.ds3-datascience-polytechnique.fr/program/"}
-                target="_blank"
-              >
-                2018 Polytechnique Data Science Summer School
-              </ExternalLink>
-              &nbsp; . This was presented around the cocktail during the poster
-              session.
-            </p>
-          </News>
-        </ColumnTwo>
-      </ContentWrapper>
-      <ContentWrapper>
-        <ColumnOne>
-          <Images src={ContextImg20} />
-        </ColumnOne>
-        <ColumnTwo>
-          <News>
-            <h3>June 2018, Ai Square Connect nominee of ilab</h3>
-            <p>
-              Ai Square Connect has been nominated in the 2018 innovation
-              program 2018. This rewards the spirit of innovation and the many
-              years of R&D of Ai Square Connect.
-            </p>
-          </News>
-        </ColumnTwo>
-      </ContentWrapper>
-      <ContentWrapper>
-        <ColumnOne>
-          <Images src={ContextImg21} />
-        </ColumnOne>
-        <ColumnTwo>
-          <News>
-            <h3>
-              June 2018, Ai Square Connect joined acceleration program of
-              Agoranov
-            </h3>
-            <p>
-              Ai Square Connect has been selected to join the acceleration
-              program of &nbsp;
-              <ExternalLink href={"https://www.agoranov.com/"} target="_blank">
-                Agoranov
-              </ExternalLink>
-              .
-            </p>
-          </News>
-        </ColumnTwo>
-      </ContentWrapper>
-      <ContentWrapper>
-        <ColumnOne>
-          <Images src={ContextImg22} />
-        </ColumnOne>
-        <ColumnTwo>
-          <News>
-            <h3>June 2018, Ai Square Connect has been created</h3>
-            <p>
-              The 3 founders of Ai Square Connect have teamed up to create Ai
-              Square Connect. All in all, the 3 founders: Eric Benhamou,
-              Beatrice Guez and Nicolas Paris gather more than 35 years of
-              experience in finance, technology and start-up creation.
-            </p>
-          </News>
-        </ColumnTwo>
-      </ContentWrapper>
+      
+      
     </TextContainer>
   )
 }
@@ -558,7 +180,7 @@ const ColumnOne = styled.div`
 `
 
 const ColumnTwo = styled.div`
-  margin: auto;
+  align: start;
 `
 
 const Images = styled.img`
@@ -572,17 +194,17 @@ const Images = styled.img`
 
 const News = styled.div`
   padding-right: 2rem;
-
+  
   h3 {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     font-size: 1.5rem;
-    font-style: italic;
+    font-weight: bold;
   }
 
   p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #3b3b3b;
-    line-height: 2rem;
+    line-height: 1.2;
 
     @media screen and (max-width: 768px) {
       display: none;

@@ -1,60 +1,97 @@
 import React from "react"
 import styled from "styled-components"
-import ReactReadMoreReadLess from "react-read-more-read-less";
+import { RiBankCard2Fill, RiMoneyEuroBoxLine } from 'react-icons/ri'
+import { MdNextWeek } from 'react-icons/md'
+import { SiMicrostrategy } from 'react-icons/si'
+import { CgDanger } from 'react-icons/cg'
 
 const TextBenefit = () => {
   return (
     <BenefitsContainer>
       <Wrapper>
-        <BenefitBox id="benefit-strategies">
-          <Heading>Create New Strategies</Heading>
-          <Description>
-            <p>
-              Our value proposition is to enable the manager code its own
-              strategies, test them with a process based on traditional
-              management (backtest, paper trading, risk limits, etc.) and
-              improve them thanks to the methods implemented on the platform.
-            </p>
-          </Description>
-        </BenefitBox>
-        <BenefitBox id="benefit-prediction">
-          <Heading>Improve Trading Platform</Heading>
-          <Description>
-            <p>
-            <ReactReadMoreReadLess
-                charLimit={200}
-                readMoreText={"Read more ▼"}
-                readLessText={"Read less ▲"}
-            >
-            Starting with the manager's strategy, we make prediction on the quality of trading signals in order to detect bad trades. The objective is to supplement the information used for the initial strategy and to improve the management decision. We use supervised learning with more than 100 variables derived from price and alternative data (macro data such as non-farm pay-roll, volatility and market volume, sentiment index, FED meetings, etc.). The manager can decide which features to use for the supervised learning overlay. The algorithm analyses the impact of these features to retain only the most explanatory variables.
-            ML algorithm learns over a train period and validate the robustness of the model over a test period (out of sample). The manager can see the improvement of the strategy and test the robustness of the ML algorithm.
-            </ReactReadMoreReadLess>
-            </p>
-          </Description>
-        </BenefitBox>
         <BenefitBox id="benefit-allocation">
-          <Heading>Find the Best Portfolio Allocation</Heading>
-          <Description>
-            <p>
-            Thanks to our expertise in reinforcement learning applied to financial markets, we leverage the added value of our data to find the best allocation between different portfolios or strategies. The advantage of our solution compared to a conventional optimization is that the allocation varies according to market conditions and adapts in real time automatically.
-            </p>
-          </Description>
+          <BenefitIcon>
+            <RiBankCard2Fill />
+          </BenefitIcon>
+          <div>
+            <Heading>Find the best portfolio allocation</Heading>
+            <Description>
+              <p>
+                Thanks to our expertise in reinforcement learning applied to
+                financial markets, we leverage the added value of our data to find
+                the best allocation between different portfolios or strategies.
+                The advantage of our solution compared to a conventional
+                optimization is that the allocation varies according to market
+                conditions and adapts in real time automatically.
+              </p>
+            </Description>
+          </div>
         </BenefitBox>
         <BenefitBox id="benefit-crisis">
-          <Heading>Anticipate Crisis</Heading>
-          <Description>
-            <p>
-            Our reinforcement learning method is particularly useful in challenging market conditions as it helps to anticipate market crisis and re-allocating to less risky assets depending on the market environment.
-            </p>
-          </Description>
+          <BenefitIcon>
+            <RiMoneyEuroBoxLine />
+          </BenefitIcon>
+          <div>
+            <Heading>Anticipate crisis</Heading>
+            <Description>
+              <p>
+                  Our deep learning method is particularly useful in challenging
+                  market conditions as it helps to anticipate market crises and
+                  re-allocating to less risky assets depending on the market
+                  environment.
+              </p>
+            </Description>
+          </div>
+        </BenefitBox>
+        <BenefitBox id="benefit-prediction">
+          <BenefitIcon>
+            <MdNextWeek />
+          </BenefitIcon>
+          <div>
+            <Heading>Improve trading prediction</Heading>
+            <Description>
+              <p>
+                We use supervised learning with more than 100 variables derived
+                from price and alternative data (macro data, sentiment index,
+                etc...) to make prediction on the manager’s strategies. The
+                manager can decide which features to use for the supervised
+                learning overlay. The algorithm analyses the impact of these
+                features to retain only the most explanatory variables. The
+                objective is to supplement the information used for the initial
+                strategy and to improve the management decision.
+              </p>
+            </Description>
+          </div>
+        </BenefitBox>
+        <BenefitBox id="benefit-strategies">
+          <BenefitIcon>
+            <SiMicrostrategy />
+          </BenefitIcon>
+          <div>
+            <Heading>Design new strategies</Heading>
+            <Description>
+              <p>
+                We help managers to develop algorithmic strategies based on AI. We
+                apply our Deep learning models to large economical datasets to
+                extract patterns and derive the best investment decision.
+              </p>
+            </Description>
+          </div>
         </BenefitBox>
         <BenefitBox id="benefit-risk">
-          <Heading>Risk Management</Heading>
-          <Description>
-            <p>
-            Risk management is fully integrated in the process, at the strategy and the portfolio level. We integrate reinforcement learning techniques to dynamically control risks.
-            </p>
-          </Description>
+          <BenefitIcon>
+            <CgDanger />
+          </BenefitIcon>
+          <div>
+            <Heading>Risk management</Heading>
+            <Description>
+              <p>
+                Risk management is fully integrated into the process, at the
+                strategy and the portfolio level. We integrate reinforcement
+                learning techniques to dynamically control risks.
+              </p>
+            </Description>
+          </div>
         </BenefitBox>
       </Wrapper>
     </BenefitsContainer>
@@ -63,15 +100,28 @@ const TextBenefit = () => {
 
 export default TextBenefit
 
-
 const BenefitsContainer = styled.div`
   width: 100%;
-  background: #fff;
+  background-color: #fafafb;
   color: #000;
-  display: flex;
-  flex-direction: column;
+  display:flex;
+  align-items: center;
   justify-content: center;
   padding: 4rem 0;
+`
+
+const BenefitIcon = styled.div `
+  font-size: 5rem;
+  margin: 2.5rem;
+  padding: 2.1rem 2.5rem;
+  justify-content: center;
+  text-align: center;
+  background: lightblue;
+  border-radius: 50%;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 `
 
 const Wrapper = styled.div`
@@ -94,6 +144,10 @@ const BenefitBox = styled.div`
   width: 100%;
   padding: 2rem 0;
   transition: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 `
 
 const Heading = styled.h1`

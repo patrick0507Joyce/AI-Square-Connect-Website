@@ -5,6 +5,8 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
     "babel-plugin-styled-components": "^1.12.0",
     "gatsby": "^2.24.10",
     "gatsby-image": "^2.5.0",
@@ -27,7 +29,8 @@
     "styled-components": "^5.2.1"
   },
   "devDependencies": {
-    "prettier": "2.2.1"
+    "prettier": "2.2.1",
+    "react-readmore": "^1.0.2"
   },
   "keywords": [
     "gatsby"

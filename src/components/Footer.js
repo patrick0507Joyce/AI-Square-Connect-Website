@@ -19,17 +19,14 @@ const Footer = () => {
           <FooterLink to="/company/#company-vision">Our Vision</FooterLink>
           <FooterLink to="/company/#company-story">Our Story</FooterLink>
           <FooterLink to="/company/#company-founder">Founders</FooterLink>
-          <FooterLink to="/company/#company-partner">Partners</FooterLink>
         </FooterLinkItems>
       </FooterLinksWrapper>
       <FooterLinksWrapper>
         <FooterLinkItems>
           <FooterLinkTitle>Technology</FooterLinkTitle>
-          <FooterLink to="/technology/#technology-platform">Systematic trading platform</FooterLink>
-          <FooterLink to="/technology/#technology-description">Supervised learning</FooterLink>
-          <FooterLink to="/technology/#technology-supervised">Supervised learning</FooterLink>
-          <FooterLink to="/technology/#technology-optimisation">Cutting edge optimisation</FooterLink>
+          <FooterLink to="/technology/#technology-technology">Novel Technology</FooterLink>
           <FooterLink to="/technology/#technology-reinforcement">Reinforcement learning</FooterLink>
+          <FooterLink to="/technology/#technology-feature">Feature Importance</FooterLink>
         </FooterLinkItems>
         <FooterLinkItems>
           <FooterLinkTitle>Social Media</FooterLinkTitle>
