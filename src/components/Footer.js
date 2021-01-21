@@ -10,7 +10,7 @@ const Footer = () => {
           <h1>AI Square Connect</h1>
           <p>We strive to create the best experiences for our customers</p>
           <CopyrightContainer>
-            <p>Copyright: AI Square Connect, Paris. @2021</p>
+            <p>Copyright: Ai for Alpha, Paris. @2021</p>
           </CopyrightContainer>
         </FooterDesc>
         <FooterLinkItems>
