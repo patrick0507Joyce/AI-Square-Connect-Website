@@ -23,7 +23,7 @@ const IndexPage = () => (
     <SolutionContext />
     <Clients />
     <Advisors />
-    
+    <Partners />
   </Layout>
 )
 

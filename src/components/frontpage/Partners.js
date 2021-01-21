@@ -63,7 +63,7 @@ const PartnersContainer = styled.div`
 const Wrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr 1.5fr;
-  padding: 1rem 2rem;
+  padding: 1rem 0;
   grid-gap: 2rem;
 
   @media screen and (max-width: 768px) {
@@ -83,6 +83,7 @@ const PartnerImg = styled(Img)`
   }
 
   @media screen and (max-width: 768px) {
+    width: 80%;
   }
 `
 
@@ -101,7 +102,7 @@ const Description = styled.p`
 
   @media screen and (max-width: 768px) {
     font-size: 1.2rem;
-    padding: 0;
+    padding: 0 1.5rem;
 
   }
 
