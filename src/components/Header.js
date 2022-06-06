@@ -10,6 +10,26 @@ const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [menuIndex, setMenuIndex] =useState(-1);
   
+  useEffect(() => {
+    const alibabaScript = document.createElement('script');
+    const alibabaScript2 = document.createElement('script');
+  
+    alibabaScript.src = "https://g.alicdn.com/aes/??tracker/1.0.34/index.js,tracker-plugin-pv/2.4.5/index.js,tracker-plugin-event/1.2.5/index.js";
+    alibabaScript2.src = "https://g.alicdn.com/??alidocs/we-logger/1.0.1/index.js,code/lib/react/17.0.1/umd/react.production.min.js,code/lib/react-dom/17.0.1/umd/react-dom.production.min.js,code/lib/react-router-dom/5.2.0/react-router-dom.min.js,code/lib/classnames/2.2.6/index.min.js,code/lib/react-is/17.0.1/umd/react-is.production.min.js,code/lib/mobx/6.3.2/mobx.umd.production.min.js,code/lib/mobx-react-lite/3.2.0/mobxreactlite.umd.production.min.js";
+
+    alibabaScript.async = true;
+    alibabaScript2.async = true;
+    alibabaScript2.crossorigin = 'anonymous';
+  
+    document.body.appendChild(alibabaScript);
+    document.body.appendChild(alibabaScript2);
+  
+    return () => {
+      document.body.removeChild(alibabaScript);
+      document.body.removeChild(alibabaScript2);
+    }
+  }, []);
+  
   return (
     <Nav>
       <NavLink to="/">
